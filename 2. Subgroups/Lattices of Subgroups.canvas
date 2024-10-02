@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"617d3c1bf576db80","type":"file","file":"2. Subgroups/Subgroups.md","x":1,"y":180,"width":539,"height":440,"color":"2"},
+		{"id":"fd4aedc0c56d2c06","type":"text","text":"### Subgroups reveal the structure of a Group","x":620,"y":244,"width":250,"height":137,"color":"1"}
+	],
+	"edges":[
+		{"id":"2a7ab37811d0e31c","fromNode":"617d3c1bf576db80","fromSide":"right","toNode":"fd4aedc0c56d2c06","toSide":"left"}
+	]
+}
