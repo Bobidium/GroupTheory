@@ -275,4 +275,6 @@ As we can see in the section of [[Isomorphism Theorems]], introducing the quotie
 \end{document}
 ```
 
-where $K = \text{Ker}(\varphi)$, $\pi$ is the natural projection (which is surjective), and $\Phi$ is the isomorphism between $G/K$ and $\text{Im}(\varphi)$ (which is injective even when the codomain is $H$).  
+where $K = \text{Ker}(\varphi)$, $\pi$ is the natural projection (which is surjective), and $\Phi$ is the isomorphism between $G/K$ and $\text{Im}(\varphi)$ (which is injective even when the codomain is $H$). 
+
+update
