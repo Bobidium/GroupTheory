@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 13848708
       }
+    },
+    {
+      "query": "path:\"Finitely Generated Abelian Groups\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4615624
+      }
     }
   ],
   "collapse-display": false,
