@@ -9,7 +9,6 @@ aliases:
 ### Normal Subgroups: Applying Lagrange
 
 
-
 ### Products of Subgroups
 
 
