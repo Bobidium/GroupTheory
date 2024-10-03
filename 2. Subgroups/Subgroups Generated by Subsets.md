@@ -158,3 +158,6 @@ $$
 g_1 \in G_{i_1}, g_2 \in G_{i_2}, ... ,g_k \in G_{i_k}
 $$
 Let $m = \max\{i_1, i_2, ..., i_k\}$, then all generators $g_i$ are in $G_m$ and consequently, $G_m = G$. However, as $G_m \in \mathcal{S}$, $G_m$ must be a proper subgroup, which leads to a contradiction. Thus, $H$ is a proper subgroup of $G$, which shows that $H \in \mathcal{S}$. Hence, we have shown that every chain in $\mathcal{S}$ has an upper bound (under the partial order of set inclusion), which by *Zorn's Lemma* implies that there is a maximum element in $\mathcal{S}$, i.e. a maximal subgroup of $G$. 
+
+### Classification of Groups of Order 4
+
