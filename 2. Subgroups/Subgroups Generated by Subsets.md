@@ -169,8 +169,10 @@ Apart from the Cyclic group of order $4$, there exists another group of order $4
 >![[Pasted image 20241003231409.png | center | 200]]
 >i.e. any the square of any element is the identity, and the product of any two distinct non-identity elements gives the third non-identity element. 
 
+>[!warning] Note
+>The Klein 4-Group is an Abelian Group of order $4$. 
 
+Are there any other groups of order $4$ that are not isomorphic to either the Klein 4-Group or the cyclic group of order $4$? The following **classification theorem** says no: 
 
-We can now classify all groups of order $4$
-
->[!success] 
+>[!success] Classification of Groups of Order $4$
+>
