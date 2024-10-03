@@ -175,4 +175,6 @@ Apart from the Cyclic group of order $4$, there exists another group of order $4
 Are there any other groups of order $4$ that are not isomorphic to either the Klein 4-Group or the cyclic group of order $4$? The following **classification theorem** says no: 
 
 >[!success] Classification of Groups of Order $4$
->For a group $G$, if $|G| = 4$,  then 
+>For a group $G$, if $|G| = 4$,  then $G \simeq Z_4$ or $G \simeq V_4$. 
+
+**Proof**: 
