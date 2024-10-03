@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "063bcf28af8f84b1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "158ee502bf6e3a0e",
             "type": "leaf",
             "state": {
@@ -50,9 +42,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "063bcf28af8f84b1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
