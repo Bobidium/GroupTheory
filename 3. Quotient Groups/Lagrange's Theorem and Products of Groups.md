@@ -2,4 +2,4 @@
 aliases:
   - "[[Quotient Groups]]"
 ---
-stuff 
+stuffff
