@@ -30,6 +30,4 @@ Suppose FTSOC that $ab = a$, then by the Cancellation Law we have $b = e$, which
 $$
 ab = ba =  c,\;  ac = ca = b, \; bc = cb = a
 $$
-which shows that our group has exactly the same multiplication table as $V_4$. As a result, we have that $G \simeq V_4$. 
-
-haha
+which shows that our group has exactly the same multiplication table as $V_4$. As a result, we have that $G \simeq V_4$.
