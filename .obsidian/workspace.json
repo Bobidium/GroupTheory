@@ -35,8 +35,12 @@
             "id": "af687f9f6e2f2da8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Classification Theorems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Classification Theorems.md"
+              }
             }
           }
         ]
@@ -115,6 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Classification Theorems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,6 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Classification Theorems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,6 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Classification Theorems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +209,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Classification Theorems.md"
+              }
             }
           }
         ],
