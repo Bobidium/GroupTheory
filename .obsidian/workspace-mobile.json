@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,8 +143,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e69f26c7eee2110b",
+  "active": "debf3990a3b2fa05",
   "lastOpenFiles": [
+    "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
+    "/3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
+    "/3. Quotient Groups/Isomorphism Theorems.md",
+    "/2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "2. Subgroups/Cyclic Groups.md",
     "3. Quotient Groups/Quotient Groups.md",
     "1. Basics/The Symmetric Group.md",
