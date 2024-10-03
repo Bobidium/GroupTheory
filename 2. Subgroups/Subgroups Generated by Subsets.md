@@ -161,4 +161,4 @@ Let $m = \max\{i_1, i_2, ..., i_k\}$, then all generators $g_i$ are in $G_m$ and
 
 ### Classification of Groups of Order 4
 
->[!succcess] 
+>[!success] 
