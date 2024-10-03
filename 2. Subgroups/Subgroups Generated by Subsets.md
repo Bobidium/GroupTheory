@@ -177,4 +177,4 @@ Are there any other groups of order $4$ that are not isomorphic to either the Kl
 >[!success] Classification of Groups of Order $4$
 >For a group $G$, if $|G| = 4$,  then $G \simeq Z_4$ or $G \simeq V_4$. 
 
-**Proof**: 
+**Proof**: Suppose $G$ contains an element $x$ of order $4$, then by the proposition in [[Cyclic Groups]], we have that $\langle x \rangle \leq G$ and that $|\langle x \rangle| = 4$, hence, we can conclude that $G = \langle x \rangle$, which implies that $G \simeq Z_4$.  
