@@ -39,7 +39,7 @@
       "query": "file:Classification Theorems",
       "color": {
         "a": 1,
-        "rgb": 9205247
+        "rgb": 13848708
       }
     }
   ],
@@ -53,6 +53,6 @@
   "repelStrength": 10.6652806652807,
   "linkStrength": 0.774428274428274,
   "linkDistance": 250,
-  "scale": 0.9441661101254957,
+  "scale": 1.4843964212204135,
   "close": false
 }
