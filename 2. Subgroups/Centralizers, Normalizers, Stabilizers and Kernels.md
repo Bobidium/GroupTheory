@@ -76,7 +76,7 @@ $$
 >[!example] Normalizer of $A$ in $D_{2n}$
 >We claim that $N_{D_{2n}} (A) = D_{2n}$. We shall prove this fact in two different methods. 
 >1. As $C_{D_{2n}}(A) \le N_{D_{2n}}(A)$, $A \subset N_{D_{2n}}(A)$, so naturally $r \in N_{D_{2n}}(A)$. Now, consider the element $s \in D_{2n}$, observe that: $$ sAs^{-1} = \{ ses^{-1}, srs^{-1} , ..., sr^{n-1}s^{-1} \} = \{e, r^{n-1}, r^{n-2}, ..., r\} = A$$ so $s \in N_{D_{2n}}(A)$. As $r$ and $s$ are both in $N_{D_{2n}}(A)$ and they generate $D_{2n}$, naturally, $D_{2n} \subset N_{D_{2n}}(A)$, which proves that $N_{D_{2n}}(A) = D_{2n}$. 
->2. The second approach we can take is by using [[Lagrange's Theorem and Cosets|Lagrange's Theorem]], which implies that $|N_{D_{2n}}(A)| \mid |D_{2n}| = 2n$. Now, since $A \subset N_{D_{2n}}(A)$, $|N_{D_{2n}}(A)| \geq n$, so the only possibilities for the order of the normalizer are $n$ or $2n$. If the order is $n$, then it only consists of the elements in $A$. However, as we've seen, $s \in N_{D_{2n}}(A)$ but $s \not \in A$, so $|N_{D_{2n}}(A)| = 2n$ and consequently, $N_{D_{2n}}(A) = D_{2n}$. 
+>2. The second approach we can take is by using [[Lagrange's Theorem and Products of Groups|Lagrange's Theorem]], which implies that $|N_{D_{2n}}(A)| \mid |D_{2n}| = 2n$. Now, since $A \subset N_{D_{2n}}(A)$, $|N_{D_{2n}}(A)| \geq n$, so the only possibilities for the order of the normalizer are $n$ or $2n$. If the order is $n$, then it only consists of the elements in $A$. However, as we've seen, $s \in N_{D_{2n}}(A)$ but $s \not \in A$, so $|N_{D_{2n}}(A)| = 2n$ and consequently, $N_{D_{2n}}(A) = D_{2n}$. 
 
 ### Center of a Group
 
