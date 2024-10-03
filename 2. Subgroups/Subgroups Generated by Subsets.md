@@ -163,7 +163,13 @@ Let $m = \max\{i_1, i_2, ..., i_k\}$, then all generators $g_i$ are in $G_m$ and
 
 Apart from the Cyclic group of order $4$, there exists another group of order $4$, as we shall define below: 
 
->[!d] Klein-$4$-Group
+>[!d] Klein $4$-Group
+>The *Klein 4- Group*, denoted by $V_4$, consists of $4$ elements $\{e, a, b, c\}$ with multiplication defined as in the following multiplication table: 
+>
+>![[Pasted image 20241003231409.png | center | 200]]
+>i.e. any the square of any element is the identity, and the product of any two distinct non-identity elements gives the third non-identity element. 
+
+
 
 We can now classify all groups of order $4$
 
