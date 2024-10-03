@@ -31,3 +31,5 @@ $$
 ab = ba =  c,\;  ac = ca = b, \; bc = cb = a
 $$
 which shows that our group has exactly the same multiplication table as $V_4$. As a result, we have that $G \simeq V_4$. 
+
+haha
