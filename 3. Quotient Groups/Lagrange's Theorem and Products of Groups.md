@@ -2,4 +2,7 @@
 aliases:
   - "[[Quotient Groups]]"
 ---
-stuffff
+<<<<<<< HEAD
+stufffff
+=======
+>>>>>>> origin/main
