@@ -5,7 +5,6 @@ aliases:
   - "[[Homomorphisms and Isomorphisms]]"
 ---
 In this note, we summarize some important Classification Theorems of Finite Groups. 
-
 ### Classification of Groups of Order 4
 
 Apart from the Cyclic group of order $4$, there exists another group of order $4$, as we shall define below: 
