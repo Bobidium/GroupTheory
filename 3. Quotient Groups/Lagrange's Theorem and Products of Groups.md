@@ -53,7 +53,11 @@ We can use this proposition to prove the following interesting result:
 >[!example] Subgroups of Finite Index in $\mathbb{Q}$
 >$(\mathbb{Q}, +)$ contain no proper subgroups of finite order. 
 
-**Proof**: Firstly, notice that $(\mathbb{Q}, +)$ is Abelian, so every subgroup is normal, which allows us to consider quotient groups. 
+**Proof**: Firstly, notice that $(\mathbb{Q}, +)$ is Abelian, so every subgroup is normal, which allows us to consider quotient groups. Suppose FTSOC that $H \leq \mathbb{Q}$ is a proper subgroup and $[\mathbb{Q}:H] = n$, then the quotient group $\mathbb{Q} / H$ is a finite group. Applying the above proposition shows that for any $qH \in \mathbb{Q} / H$, 
+$$
+(qH)^n = nqH = H
+$$
+As the cosets $qH$ partition $\mathbb{Q}$, this further implies tha for all $x \in \mathbb{Q}$, $nx \in H$. However, notice that $n\mathbb{Q} = \{nq : n \in \mathbb{Z}, \; q \in \mathbb{Q}\} = \mathbb{Q}$, which is a contradiction. Hence, there exists no proper subgroups of finite index in $\mathbb{Q}$. 
 
 
 ### Normal Subgroups: Applying Lagrange

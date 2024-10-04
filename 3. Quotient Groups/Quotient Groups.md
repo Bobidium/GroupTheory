@@ -231,7 +231,7 @@ With the above proposition in hand, we can see that $G/N$ is a group under coset
 >Let $G$ be a group. A subgroup $N$ of $G$ is called a *normal subgroup* if and only if for all $n \in N$ and all $g \in G$, $gNg^{-1} = N$. In particular, an element $g$ that satisfies $gNg^{-1} = N$ is said to *normalize* $N$. If $N$ is a normal subgroup of $G$, we shall write $N \unlhd G$. 
 
 >[!warning] Note
->It is trivial to see that $N \unlhd G$ if and only if the normalizer of $N$ is $G$, i.e. $N_G(N) = G$. 
+>It is trivial to see that $N \unlhd G$ if and only if the [[Centralizers, Normalizers, Stabilizers and Kernels|normalizer]] of $N$ is $G$, i.e. $N_G(N) = G$. 
 
 We may summarize our findings in the previous proposition concisely as follows: 
 
