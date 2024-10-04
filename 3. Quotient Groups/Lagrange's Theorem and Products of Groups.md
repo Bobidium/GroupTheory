@@ -2,7 +2,35 @@
 aliases:
   - "[[Quotient Groups]]"
 ---
-### Lagranges Theorem
+### Lagrange‘s Theorem
+
+Lagrange's Theorem is one of the most elegant and important theorems in the theory of finite groups. It makes a direct linkage between the order of a group and all of its subgroups: 
+
+>[!success] Lagrange's Theorem
+>Let $G$ be a finite group and let $H \leq G$, then:
+>$$
+>|H| \mid |G|
+>$$
+>i.e. the order of any subgroup of $G$ divides the order of $G$. 
+
+**Proof**: We proceed by using [[Quotient Groups#Cosets|Cosets]]. Denote the set of all left cosets of $H$ by $G / H$. We first show that all left cosets of $H$ have the same cardinality, i.e. $|H|$. For any two costs $gH, g'H \in G/H$, we define the map $f: gH \to g'H$ by $f(gh) = g'h$ for all $h \in H$, then clearly this is surjective and injectivity is guaranteed by right cancellation: $gh = g'h \implies h = h'$. Hence, $f$ is a bijection between any two left cosets of $H$, and consequently, all left cosets have the same Cardinality. From the note of [[Quotient Groups]], we have the result that all left cosets of $H$ partition $G$, so naturally:
+$$
+|G| = |H| |G/H| \implies  | H| \mid |G|
+$$
+where $|H|$ is the cardinality of each coset and $|G/H|$ is the total number of distinct cosets. This completes the poof of Lagrange's Theorem. 
+
+In general, the number of distinct left (right) cosets is given a name: 
+
+>[!d] Index of a Subgroup
+>Let $G$ be a group and $H \leq G$, then the *index* of $H$ in $G$ is the number of distinct left (right) cosets of $H$ in $G$. This is denoted as $[G:H]$. 
+
+>[!warning] Note
+>* When $G$ is infinite, a subgroup of $G$ may still have a finite index. Examples of this include the set of all multiples of $n$ in $\mathbb{Z}$, denoted by $n\mathbb{Z}$: this subgroup has index $n$ in $\mathbb{Z}$. 
+>* It is also worth noting that when $G$ is infinite, the $[G: H]$ is not necessarily $|G| / |H|$ as **Lagrange's Theorem only applies to finite groups**. 
+
+With Lagrange's Theorem, we have the following easy corollaries: 
+
+>[!success] 
 
 
 
