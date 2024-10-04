@@ -31,3 +31,10 @@ $$
 ab = ba =  c,\;  ac = ca = b, \; bc = cb = a
 $$
 which shows that our group has exactly the same multiplication table as $V_4$. As a result, we have that $G \simeq V_4$.
+
+### Classificaiton of Groups of Prime Order
+
+>[!success] Groups of Prime Order
+>Let $G$ be a finite group and suppose $|G| = p$, where $p \in \mathbb{Z}$ is a prime. Then, $G \simeq Z_p$, where $Z_p$ is the Cyclic Group of order $p$. 
+
+**Proof**: For any $x \in G$, we must have $o(x) \mid p$ by the "Order of Elements Divide Order of Group" Proposition in [[Lagrange's Theorem and Products of Groups]]. If $x \neq e$, then $o(x) \neq 1$. This forces the order of $x$ to be $p$. Consequently, any non-identity element in $G$ has order $p$, which each of them is a generator for $G$. Resultingly, $G$ must be isomorphism to the cyclic group of order $p$. 
