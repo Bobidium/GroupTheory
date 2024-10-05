@@ -84,6 +84,7 @@ This Proposition is also included in the [[Classification Theorems#Classificaito
 
 ### Normal Subgroups: Applying Lagrange
 
+s
 
 ### Products of Subgroups
 
