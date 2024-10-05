@@ -139,3 +139,39 @@ hK = h'K \iff h^{-1}h' \in K \iff h^{-1}h' \in H\cap K \iff h(H\cap K) = h'(H \c
 $$
 Hence, $f$ is a bijection between the set of left cosets of $K$ in $HK$ and the set of left cosets of $H\cap K$ in $H$, which shows that the two sets have the same cardinality, completing the proof. 
 
+>[!warning] Remark
+>This formula is also a consequence of the [[Isomorphism Theorems|Second Isomorphism Theorem]] which states that:
+>$$
+>HK/K \simeq H/(H\cap K)
+>$$
+>where $HK$ is a group, and $H, K \unlhd G$. 
+
+Notice that when describing $|HK|$, we used "cardinality" in place of "order". This is because the product of subgroups $HK$ is **not always a subgroup** itself. In fact, we have the following necessary and sufficient condition for it to be a subgroup: 
+
+>[!success] Criteria for $HK$ to be a Subgroup
+>Let $G$ be a group and $H, K\leq G$, then $HK \leq G$ if and only if $HK = KH$. 
+
+**Proof**: Suppose $HK = KH$, we prove that $HK \leq G$ using the [[Subgroups#Properties of Subgroups|Subgroup Criteria]]. Let $h_1k_1, h_2k_2 \in HK$, then since $HK = KH$, there exists $h\in H$ and $k \in K$ such that $(k_1k_2^{-1})h_2^{-1} = hk$. Consequently: 
+$$
+(h_1k_1)(h_2k_2)^{-1} = h_1(k_1k_2^{-1})h_2^{-1} = h_1hk \in HK
+$$
+Hence, $HK \leq G$. Conversely, if $HK \leq G$, then for all $h \in H, k \in K$:
+$$
+kh = (ek)(he)
+$$
+As $ek, he \in HK$, we have that $kh \in HK$ by closure under multiplication, so $KH \subseteq HK$. For the opposite inclusion take any $hk \in HK$ and let $a^{-1} = hk$. As $HK$ is a group, there exists $h_1, k_!$ such that $a = h_1k_1\in HK$. Thus: 
+$$
+hk = (h_1k_1)^{-1} = k_1^{-1}h_1^{-1} \in KH
+$$
+showing that $HK \subseteq KH$. Hence, if $HK \leq G$, then $HK = KH$. 
+
+A weaker formulation of this necessary and condition relationship reveals the relationship between the product and the normalizer:
+
+>[!success] Normalizer Criteria for $HK$ to be a Subgroup
+>Let $G$ be a group and $H, K \leq G$. If $H \leq N_G(K)$, then $HK$ is a subgroup. As a special case, if $H \unlhd G$, then $HK \leq G$. 
+
+**Proof**: It suffices to prove that $HK = KH$. Since $H \leq N_G(K)$, for any $hk \in HK$, $hkh^{-1} = k' \in K$, which implies that $hk = k'h \in KH$. Hence, $HK \subseteq KH$. Likewise, we can prove that $KH \subseteq HK$, which completes the proof by the previous proposition. 
+
+
+
+
