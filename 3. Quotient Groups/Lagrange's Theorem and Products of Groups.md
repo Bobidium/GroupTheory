@@ -113,6 +113,29 @@ which implies that the left cosets are exactly the right cosets. As a result, $H
 
 ### Products of Subgroups
 
+In this section, we investigate another way of formulating a new group from two subgroups: the *product* of subgroups
 
+>[!d] Product of Subgroups
+>Let $G$ be a group and $H, K \leq G$, then the *product* of $H$ and $K$, denoted by $HK$ is the set:
+>$$
+>HK = \{ hk : h \in H, \; k \in K \}
+>$$
 
+The very first question we want to ask about this new object is: what is its cardinality? How is it linked to the order of $G$ and $H$? The following proposition provides an elegant answer: 
+
+>[!success] Cardinality of Product
+>Let $G$ be a finite group, and $H, K \leq G$, then:
+>$$
+>|HK| = \frac{|H||K|} {|H \cap K|}
+>$$
+
+**Proof**: It suffices to prove that:
+$$
+\frac{|HK|}{|K|} = \frac{|H|}{|H\cap K|}
+$$
+and notice that $|HK|/|K|$ is precisely the number of left cosets of $K$ in $HK$, and $|H|/|H\cap K|$ is the number of left cosets of $H\cap K$ in $H$. Hence, we aim to find a bijection between the two sets of cosets. Firstly, observe that for any $hk \in HK$, $hkK = hK$ since multiplication by $k$ simply permutes the elements of $K$ (this is an [[Group Actions|action]] on K), i.e. the cosets of $K$ in $HK$ are precisely te cosets of $K$ in $H$. Next, define $f: H/K \to H/(H \cap K)$ by $f(hK) = h(H \cap K)$. Clearly, this is a surjection and we can deduce that it is an injection as follows: 
+$$
+hK = h'K \iff h^{-1}h' \in K \iff h^{-1}h' \in H\cap K \iff h(H\cap K) = h'(H \cap K)
+$$
+Hence, $f$ is a bijection between the set of left cosets of $K$ in $HK$ and the set of left cosets of $H\cap K$ in $H$, which shows that the two sets have the same cardinality, completing the proof. 
 
