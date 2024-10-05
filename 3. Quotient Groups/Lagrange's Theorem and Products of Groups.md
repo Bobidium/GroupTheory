@@ -167,8 +167,6 @@ showing that $HK \subseteq KH$. Hence, if $HK \leq G$, then $HK = KH$.
 
 A weaker formulation of this necessary and condition relationship reveals the relationship between the product and the normalizer:
 
->[!]
-
 >[!success] Normalizer Criteria for $HK$ to be a Subgroup
 >Let $G$ be a group and $H, K \leq G$. If $H \leq N_G(K)$, then $HK$ is a subgroup. As a special case, if $H \unlhd G$, then $HK \leq G$. 
 
