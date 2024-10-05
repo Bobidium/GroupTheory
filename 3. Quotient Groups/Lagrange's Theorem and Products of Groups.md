@@ -76,7 +76,7 @@ $$
 $$
 by the proposition proven above. Therefore, $a^{p-1} \equiv 1 \; (\text{mod }p)$ for all $a \in \mathbb{Z}$. 
 
-Lagrange's Theorem also reveals the fact that if $p$ is a prime, then there is in fact **only one** group of order $p$ up to isomorphism. 
+Lagrange's Theorem also reveals the fact that if $p$ is a prime, then there is in fact **only one** group of order $p$ up to [[Homomorphisms and Isomorphisms|Isomorphism]]. 
 
 >[!success] Groups of Prime Order
 >Let $G$ be a finite group and suppose $|G| = p$, where $p \in \mathbb{Z}$ is a prime. Then, $G \simeq Z_p$, where $Z_p$ is the Cyclic Group of order $p$. 
