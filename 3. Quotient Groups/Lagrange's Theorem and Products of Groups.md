@@ -172,7 +172,7 @@ A weaker formulation of this necessary and condition relationship reveals the re
 
 **Proof**: It suffices to prove that $HK = KH$. Since $H \leq N_G(K)$, for any $hk \in HK$, $hkh^{-1} = k' \in K$, which implies that $hk = k'h \in KH$. Hence, $HK \subseteq KH$. Likewise, we can prove that $KH \subseteq HK$, which completes the proof by the previous proposition.
 
-changes
+changes change
 
 
 
