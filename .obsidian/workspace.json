@@ -45,14 +45,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cauchy's Theorem.md",
+                "file": "Cauchy's theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cauchy's theorem.md"
+              }
             }
           }
         ]
@@ -127,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Cauchy's theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,6 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cauchy's theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cauchy's theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +217,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cauchy's theorem.md"
+              }
             }
           }
         ],
@@ -234,11 +241,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac97a1db51cc346f",
+  "active": "f7b4ab043262aac9",
   "lastOpenFiles": [
-    "Cauchy's Theorem.md",
-    "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
+    "Cauchy's theorem.md",
+    "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "4. Group Actions/Cauchy's Theorem.md",
     "4. Group Actions/Group Actions.md",
     "Classification Theorems.md",
