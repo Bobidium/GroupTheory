@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "3c1aadcef0131ec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Group Actions/Cauchy's Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8b22735763af86f6",
             "type": "leaf",
             "state": {
@@ -37,6 +49,18 @@
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "5685846e2124eca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Group Actions/Sylow's Theorem.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -230,8 +254,10 @@
   },
   "active": "e50a0febab0895ca",
   "lastOpenFiles": [
-    "Classification Theorems.md",
+    "4. Group Actions/Cauchy's Theorem.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
+    "4. Group Actions/Sylow's Theorem.md",
+    "Classification Theorems.md",
     "1. Basics/The Matrix Group and Quaternions.md",
     "5. Finitely Generated Abelian Groups/Finitely Generated Abelian Groups.md",
     "3. Quotient Groups/Quotient Groups.md",

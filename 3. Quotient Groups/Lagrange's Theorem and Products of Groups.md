@@ -85,8 +85,8 @@ Lagrange's Theorem also reveals the fact that if $p$ is a prime, then there is i
 
 This Proposition is also included in the [[Classification Theorems#Classificaiton of Groups of Prime Order|Classification Theorems]] Note. 
 
-A key question in Group theory is regarding a converse of Lagrange's Theorem
-
+A key question in Group theory is regarding a converse of Lagrange's Theorem. Although the full converse of it is not true, there are many partial converses including [[Cauchy's Theorem]]
+ and [[Sylow's Theorem]]. 
 ### Normal Subgroups: Applying Lagrange
 
 We can utilise Lagrange's Theorem to simplify the computations to check whether a subgroup is normal, as shown in the following example: 
