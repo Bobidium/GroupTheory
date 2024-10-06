@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cauchy's theorem.md",
+                "file": "Theorem of Cauchy.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cauchy's theorem.md"
+                "file": "Theorem of Cauchy.md"
               }
             }
           }
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cauchy's theorem.md",
+                "file": "Theorem of Cauchy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cauchy's theorem.md",
+                "file": "Theorem of Cauchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cauchy's theorem.md",
+                "file": "Theorem of Cauchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cauchy's theorem.md"
+                "file": "Theorem of Cauchy.md"
               }
             }
           }
@@ -243,8 +243,8 @@
   },
   "active": "f7b4ab043262aac9",
   "lastOpenFiles": [
+    "Theorem of Cauchy.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
-    "Cauchy's theorem.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "4. Group Actions/Cauchy's Theorem.md",
     "4. Group Actions/Group Actions.md",
