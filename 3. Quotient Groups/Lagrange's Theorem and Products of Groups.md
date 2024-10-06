@@ -167,6 +167,9 @@ hk = (h_1k_1)^{-1} = k_1^{-1}h_1^{-1} \in KH
 $$
 showing that $HK \subseteq KH$. Hence, if $HK \leq G$, then $HK = KH$. 
 
+>[!abstract] Key Idea
+>When we want to prove this type of commutativity property for groups, it is common to consider the **inverse of a product**. This same idea can be used to prove that if every element in a group has order $2$, then this group must be abelian. (See [[Definition and Elementary Properties of Groups#Elementary Properties]])
+
 A weaker formulation of this necessary and condition relationship reveals the relationship between the product and the normalizer:
 
 >[!success] Normalizer Criteria for $HK$ to be a Subgroup
