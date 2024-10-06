@@ -38,6 +38,18 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "f7b4ab043262aac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cauchy's Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -224,9 +236,9 @@
   },
   "active": "ac97a1db51cc346f",
   "lastOpenFiles": [
+    "Cauchy's Theorem.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
-    "Cauchy's Theorem.md",
     "4. Group Actions/Cauchy's Theorem.md",
     "4. Group Actions/Group Actions.md",
     "Classification Theorems.md",
