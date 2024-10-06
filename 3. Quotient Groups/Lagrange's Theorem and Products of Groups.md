@@ -85,7 +85,7 @@ Lagrange's Theorem also reveals the fact that if $p$ is a prime, then there is i
 
 This Proposition is also included in the [[Classification Theorems#Classificaiton of Groups of Prime Order|Classification Theorems]] Note. 
 
-A key question in Group theory is regarding a converse of Lagrange
+A key question in Group theory is regarding a converse of Lagrange's Theorem
 
 ### Normal Subgroups: Applying Lagrange
 
