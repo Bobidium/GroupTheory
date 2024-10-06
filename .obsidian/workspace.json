@@ -35,12 +35,16 @@
             "id": "ac97a1db51cc346f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4. Group Actions/Cauchy's Theorem.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Basics/Definition and Elementary Properties of Groups.md"
+                "file": "4. Group Actions/Cauchy's Theorem.md"
               }
             }
           }
@@ -117,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1. Basics/Definition and Elementary Properties of Groups.md",
+                "file": "4. Group Actions/Cauchy's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Basics/Definition and Elementary Properties of Groups.md",
+                "file": "4. Group Actions/Cauchy's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Basics/Definition and Elementary Properties of Groups.md",
+                "file": "4. Group Actions/Cauchy's Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Basics/Definition and Elementary Properties of Groups.md"
+                "file": "4. Group Actions/Cauchy's Theorem.md"
               }
             }
           }
@@ -229,10 +233,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8b22735763af86f6",
+  "active": "ac97a1db51cc346f",
   "lastOpenFiles": [
-    "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
+    "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "Classification Theorems.md",
     "4. Group Actions/Sylow's Theorem.md",
     "4. Group Actions/Cauchy's Theorem.md",
