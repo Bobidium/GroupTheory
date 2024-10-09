@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac97a1db51cc346f",
+  "active": "e50a0febab0895ca",
   "lastOpenFiles": [
     "1. Basics/Definition and Elementary Properties of Groups.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
