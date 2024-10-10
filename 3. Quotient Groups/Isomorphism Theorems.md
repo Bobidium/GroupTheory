@@ -78,6 +78,15 @@ HK/K \simeq H/(H \cap K)
 $$
 which completes the proof. 
 
+>[!warning] Note
+>Using this Theorem, we can have another proof for the order equation shown in [[Lagrange's Theorem and Products of Groups#Products of Subgroups]] **when $HK$ is a group**. The order equation more generalized as it does not require $HK$ to be a group. 
+
+In a lattice, the subgroups $HK, H, K$ and $H \cap K$ are represented as below: 
+
+![[Pasted image 20241010182658.png| center | 150]]
+
+This explains why the 2nd Isomorphism is called the Diamond Isomorphism Theorem. It is worth noticing that $HK$ is the **first** subgroup that appears above $H$ and $K$ in the lattice, meaning that it is the **smallest** subgroup that contains both $H$ and $K$. (The proof of this is trivial.) Likewise, the intersection of $A$ and $B$ is the **largest** subgroup that is contained in both $A$ and $B$. So in a sense, the Second Isomorphism tells us that the way $H$ and $K$ are embedded into $HK$ is similar to the way $H\cap K$ is embedded into $H$ and $K$.   
+
 ### Third Isomorphism Theorem
 
 
