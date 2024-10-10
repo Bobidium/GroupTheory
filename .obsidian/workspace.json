@@ -140,7 +140,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6143552077706244,
+                  "scale": 0.6570191580597627,
                   "close": true
                 }
               }
@@ -231,8 +231,8 @@
   },
   "active": "8b22735763af86f6",
   "lastOpenFiles": [
-    "1. Basics/The Matrix Group and Quaternions.md",
     "3. Quotient Groups/Isomorphism Theorems.md",
+    "1. Basics/The Matrix Group and Quaternions.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
     "4. Group Actions/Theorem of Cauchy.md",

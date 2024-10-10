@@ -68,8 +68,15 @@ The Second Isomorphism, or the *Diamond Isomorphism Theorem*, clarifies the rela
 >HK/K \simeq H/(H \cap K)
 >$$
 
-**Proof**: 
- 
+**Proof**: In [[Lagrange's Theorem and Products of Groups]], we have already prove that $H$ normalizes $K$ implies that $HK \leq G$. It is also trivial to prove that $K$ is normal in $HK$ since for any $hk \in HK$, and any $k' \in K$, we have $hkk'(hk)^{-1} = hkk'k^{-1}h^{-1}$, and the fact that $H$ normalizes $K$ can imply that $K \unlhd HK$. To prove the actual Isomorphism, we can utilize the first Isomorphism Theorem by constructing an homomorphism from $H$ to $HK/K$ with kernel $H \cap K$. The natural homomorphism to consider is $\varphi: h \mapsto hK$ for all $h \in H$. This map is obviously well-defined since there are no ambiguity in the repreentation of elements of $H$. This map is also surjective as for all $hkK = hK \in HK/K$, the element $h$ is mapped to it, so $\text{Im} (\varphi) = HK/K$. Next, $\varphi$ is a homomorphism because for any $h, h' \in H$:
+$$
+\varphi(h)\varphi(h') = (hK)(h'K) = hh'K = \varphi(hh')
+$$
+Lastly, notice that $\varphi(h) = e$ if and only if $h \in K$, so $K = \text{Ker}(\varphi)$. By the First Isomorphism Theorem, we have:
+$$
+HK/K \simeq H/(H \cap K)
+$$
+which completes the proof. 
 
 ### Third Isomorphism Theorem
 
