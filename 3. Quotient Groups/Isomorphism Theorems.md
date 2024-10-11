@@ -106,3 +106,8 @@ $$ and as $k$ is a normal subgroup. $gkg^{-1} \in K$ and consequently, $(gkg^{-1
 
 ### Fourth Isomorphism Theorem
 
+The Fourth Isomorphism Theorem, or the *Lattice Isomorphism Theorem* tells us exactly what the lattice of a quotient group would look like. In particular, it states that a quotient group $G/N$ has the exact same lattice as the **portion of the lattice of $G$ that is above $N$**. 
+
+>[!success] Fourth Isomorphism Thoerem
+>
+
