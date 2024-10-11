@@ -89,8 +89,20 @@ This explains why the 2nd Isomorphism is called the Diamond Isomorphism Theorem.
 
 ### Third Isomorphism Theorem
 
+The Third Isomorphism concerns the the quotient of quotients:
 
+>[!success] Third Isomorphism Theorem
+>Let $G$ be a group and let $H$, $K$ be such that $H \unlhd G, K \unlhd G$ and $H \leq K$. Then, $K/H \unlhd G/H$ and: 
+>$$
+>(G/H)/(K/H) \simeq G/K
+>$$
 
+**Proof**: It is easy to verify that $G/H \unlhd K/H$ since for all $gH \in G/H$ and any $kH \in K/H$, we have:$$
+(gH)(kH)(g^{-1}H) = (gkg^{-1})H
+$$ and as $k$ is a normal subgroup. $gkg^{-1} \in K$ and consequently, $(gkg^{-1})H \in K/H$.  This shows that the quotient group $(G/H)/(K/H)$ is well-defined. For the second part of the theorem, like always, we can use the First Isomorphism Theorem. Consider the map $\varphi: G/H \to G/K$ defined by $\varphi(gH) = gK$ for all $g\in G$. We need to verify that this map is well-defined. For any $g, g' \in G$ such that  $gH = g'H$, we can deduce that $g^{-1}g' \in H$. As $H \leq K$, this also implies that $g^{-1}g' \in K$, which shows that $gK = g'K$. The proof that $\varphi$ is a homomorphism is trivial and so wil not be included here. Notice that $\varphi$ is clearly surjective so $\text{Im}(\varphi) = G/K$. On the other hand, $\varphi(gH) = e$ if and only if $gK = K$ if and only if $g \in K$. Hence, $\text{Ker}(\varphi) = KH$ and by the First Isomorphism Theorem, we have the desired result. 
+
+>[!warning] Note
+>An easy way to remember the Third Isomorphism Theorem is by noticing that we can sort of "cancel" the $H$ in the quotients like in regular division of real numbers. 
 
 ### Fourth Isomorphism Theorem
 
