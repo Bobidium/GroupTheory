@@ -1,0 +1,4 @@
+---
+aliases:
+  - "[[Group Actions]]"
+---
