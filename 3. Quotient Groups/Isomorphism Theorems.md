@@ -109,5 +109,33 @@ $$ and as $k$ is a normal subgroup. $gkg^{-1} \in K$ and consequently, $(gkg^{-1
 The Fourth Isomorphism Theorem, or the *Lattice Isomorphism Theorem* tells us exactly what the lattice of a quotient group would look like. In particular, it states that a quotient group $G/N$ has the exact same lattice as the **portion of the lattice of $G$ that is above $N$**. 
 
 >[!success] Fourth Isomorphism Thoerem
+>Let $G$ be a group and let $N \unlhd G$, then there exists a bijection between the subgroups $A$ of $G$ that contains $N$ and the subgroups of $G/N$. In particular, thi bijection sends each subgroup $\bar{A} = A/N \subseteq G/N$ to its **preimage under the natural homomorphism**. Furthermore, this bijection has the following properties, for all $A, B \in G$ such that $N \leq A, N \leq B$: 
+>1. $\bar{A} \leq \bar{B}$ if and only if $A \leq B$. 
+>2. If $A \leq B$, then $[B : A] = [\bar{B} : \bar{A}]$. 
+>3. $\overline{\langle A, B \rangle} = \langle \bar{A}, \bar{B} \rangle$. 
+>4. $\overline{A \cap B} = \bar{A} \cap \bar{B}$. 
+>5. $A \unlhd G$ if and only if $\bar{A} \unlhd \bar{G}$. 
+
+>[!warning] Note
+>We use $\overline{A}$ as an abbreviation for $A/N$ for any subgroup $A \leq G$. 
+
+**Proof**: Consider the map $f$ that sends $A \leq G$ containing $N$ to $A /N$. Notice that since $N \unlhd G$, naturally $N \unlhd A$, so $A / N$ is a group. It is easy to see that this map is a bijection. It is surjective since for any $B/N \subseteq G/N$, its preimage must be a subgroup of $G$ that contains $N$ (because $N \in B/N$). $f$ is also injective since if $A/N = A'/N$, then for any $a \in A$, there exists $a' \in A$ such that $a^{-1}a' \in N$, which implies that $a = na'$ for some $n \in N$. As $N \leq A'$, this implies that $a \in A'$ and thus $A \subseteq A'$. Similarly, we can prove that $A' \subseteq A$ and as a result, $A = A'$. Therefore, $f$ is the desired bijection between the set of subgroups of $G$ containing $N$ and the the set of all subgroups of $G/N$. The rest of the properties are easy and tedius to verify, so their proofs will be ommited here. 
+
+Essentially, the $5$ conditions listed above states that not only is there a bijective correspondence between subgroups containing $N$ and the subgroups of $G/N$, but also **the relationship between the subgroups are preserved** by the bijection. This justifies our previously discussion that the Fourth Isomorphism asserts that the lattice of subgroups of $G/N$ is the same as the section of the lattice of subgroups of $G$ above $N$. The following example further illuminates this point: 
+
+>[!example] Structure of $Q_8 / \langle -1 \rangle$
+>The following diagram shows the lattice of subgroups of $Q_8$ (The [[The Matrix Group and Quaternions|Quaternion Group]]): 
 >
+>![[Pasted image 20241012164925.png| center | 150]]
+>
+>By the Fourth Isomorphism Theorem, we know that the subgroup lattice of $Q_8 / \langle -1 \rangle$ is exactly the same as the lattice above $\langle -1 \rangle$ in the above diagram (indicated using double lines). Notice that this shows that $Q_8 / \langle  1 \rangle$ is non-cyclic, and by [[Lagrange's Theorem and Products of Groups#Lagrange‘s Theorem|Lagrange's Theorem]], it has order $4$. Using the [[Classification Theorems]] of groups of order $4$, we can conclude that:
+>$$
+>Q_8 / \langle -1 \rangle \simeq V_4
+>$$
+
+
+
+
+
+
 
