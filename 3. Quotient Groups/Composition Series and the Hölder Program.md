@@ -23,7 +23,7 @@ On the other end of the spectrum, opposing finite abelian groups, we have the *s
 >[!d] Simple Groups
 >A group $G$ is *simple* if $|G| > 1$ and the only normal subgroups of $G$ are $\{e\}$ and $G$. 
 
-In other words, a simple group has no proper normal subgroups other than the trivial group. 
+In other words, a simple group has no proper normal subgroups other than the trivial group. In the contrary to Abelian Groups, we have 
 
 ### Jordan-Hölder Theorem and the Hölder Program
 
