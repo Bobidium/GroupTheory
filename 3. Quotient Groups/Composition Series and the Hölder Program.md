@@ -76,7 +76,43 @@ The next lemma asserts that every normal subgroup must be part of a composition 
 >[!success] Lemma 2: Normal Subgroups and Composition Series
 >If $G$ is a finite group and $H \unlhd G$, then there is a composition series of $G$, one of whose terms is $H$. 
 
+**Proof**: By the previous lemma, we can find a composition series of $H$: 
+$$
+1 \unlhd H_1 \unlhd H_2 \unlhd ... \unlhd H
+$$
+If $G/H$ is simple, then we are done as $1 \unlhd H_1 \unlhd H_2 \unlhd ... \unlhd H \unlhd G$ is the desired composition series. If $G/H$ is not simple, there exists a minimal $N_1 \unlhd G$ such that $N_1/H \unlhd G/H$ and $N_1 / H$ is a simple group. Then, we can repeat the procedure again for $N_1$ and the entire process must end due to the finiteness of $G$. Therefore, eventually, we would have that:
+$$
+1 \unlhd H_1 \unlhd H_2 \unlhd ... \unlhd H \unlhd N_1 \unlhd... \unlhd H_k \unlhd G
+$$
+is a desired composition series. 
 
+With the above two lemmas, we are now ready to prove the *Jordan-Hölder Theorem*: 
 
+**Proof of Jordan-Hölder**: Again, we proceed by induction on $\min(r, s)$. In the base case, we have $\min(r,s) = 1$ and WLOG we assume that $s = 1$. Suppose $G$ has two composition series:
+$$
+1 = N_0 \unlhd N_1 \unlhd ... \unlhd N_r = G
+$$
+and
+$$
+1 = M_0 \unlhd M_1 \unlhd M_2 = G
+$$
+It suffices to prove that $r = 2$ and that the list of coposition factors is the same. From the second composition series, we can deduce that $M_1$ is simple and $G/M_1$ is simple. By the [[Isomorphism Theorems#Second Isomorphism Theorem|Second Isomorphism Theorem]],  we have that $N_{r-1} \cap M_1 \unlhd M_1$ and the simplicity of $M_1$ then implies that $N_{r-1} \cap M = \{e\}$. (We assume that $N_r \neq M_1)$ Using the Second Isomorphism Theorem again, we can deduce that:
+$$
+G/M_1 \simeq N_{r-1} / (N_{r-1} \cap M_1) = N_{r-1}
+$$
+so $N_{r-1}$ is itself a simple group. Likewise, we can deduce that:
+$$
+G / N_{r-1} \simeq M_1 / (N_{r-1} \cap M_1) = M_1
+$$
+which shows that $1 \unlhd N_{r-1} \unlhd N_r = G$ is a composition series. Hence, $r = 2$ and we can explicitly see that the composition factors are permutations of each other. This completes the proof in the base case.  
+
+For the Inductive Hypothesis, we assume that if $\min(r, s) < n$, then the composition factors in the two compositions series are in bijective correspondences. WLOG assume that $s < r$ and $s = n$. Using lemma $2$, we can deduce that there exists composition series of $N_{r-1}$ and $M_{s-1}$ that contains the normal subgroup $N_{r-1} \cap M_{s-1}$. Notice that in this case, we have: 
+$$
+G/M_{s-1} \simeq N_{r-1} / (N_{r-1} \cap M_{s-1})
+$$
+and the simplicity of $G / M_{s-1}$ shows that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor pf $N_{r-1}$ in the composition series. Likewise, we may also deduce that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor of $M_{r-1}$ in the composition series. We can then apply the inductive hypothesis to $N_{r - 1} \cap M_{s-1}$, which asserts that all composition factors of it are in bijective correspondence, to conclude that: 
+$$
+N_{r-1} \cap M_{s-1} = N_{r-2} = M_{s-2}
+$$ and hence, $r = s$ and all composition factors of $G$ in the two composition series are permutations with each other. This completes the proof of the Jordan-Hölder Theorem. 
 
 ### Solvable Groups
