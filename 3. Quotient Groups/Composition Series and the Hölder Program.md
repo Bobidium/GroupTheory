@@ -54,6 +54,29 @@ Due to the fact that Simple groups cannot be factored into Quotient Groups, they
 The "Unique factorization Theorem" of Groups is called the *Jordan-Hölder Theorem*, as stated below: 
 
 >[!success] Jordan-Hölder Theorem
->
+>Let $G$ be a finite group with $G \neq \{e\}$, then the composition factors in a composition series are unique, i.e., if $$1 = N_0 \unlhd N_1 \unlhd N_2 \unlhd ... \unlhd N_{r-1} \unlhd N_r = G$$ and $$1 = M_0 \unlhd M_1 \unlhd M_2 \unlhd ... \unlhd M_{s-1} \unlhd M_s = G$$ are two composition series, then $r = s$ and there exists a permutation $\pi$ of $\{1, 2, ..., r\}$ such that:
+>$$
+>M_{\pi(i)} / M_{\pi(i)-1} \simeq N_i / N_{i-1}
+>$$
+>for all $1 \leq i \leq r$. 
+
+To prove this theorem, we need some lemmas first. The first lemma asserts that every group has at least one composition series: 
+
+>[!success] Lemma 1: Existence of Composition Series
+>Le $G$ be a finite group, then $G$ has a composition Series. 
+
+**Proof**: We proceed with proof by induction on the order of $G$. In the base case, we have $|G| = 1$, which implies that $G = \{e\}$, and the proposition is trivially true. Suppose that for a fixed $n$, all groups with order less than $n$ has a composition series, we now show that all groups $G$ with order $n$ has a composition series. If $G$ is simple, then $G$ has the trivial composition series, i.e. $\{e\} \unlhd G$. If $G$ is not simple, then $G$ contains a proper, nontrivial normal subgroup $H$. If $G / H$ is simple, then we can use the inductive hypothesis on $H$ to conclude that: 
+$$
+1 \unlhd H_1 \unlhd H_2 \unlhd ... \unlhd H \unlhd G
+$$
+is a composition series of $G$, wherein $1 \unlhd H_1 \unlhd H_2 \unlhd ... \unlhd H$ is a composition series of $H$. If $G/H$ is not simple, then there exists a non-trivial $A/H \unlhd G/H$ where $H \leq A$. By the [[Isomorphism Theorems|Fourth Isomorphism Theorem]], we have that $A \unlhd G$. We can apply the above procedure again to produce a composition series for $G$, and this process eventually ends due to the finiteness of $G$. Therefore, by the Principle of Mathematical Induction, we conclude that $G$ must have a composition series. 
+
+The next lemma asserts that every normal subgroup must be part of a composition series: 
+
+>[!success] Lemma 2: Normal Subgroups and Composition Series
+>If $G$ is a finite group and $H \unlhd G$, then there is a composition series of $G$, one of whose terms is $H$. 
+
+
+
 
 ### Solvable Groups

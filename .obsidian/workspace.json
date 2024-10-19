@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,11 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3. Quotient Groups/Composition Series and the Hölder Program.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Composition Series and the Hölder Program"
+              "title": "Outline"
             }
           }
         ]
@@ -131,7 +129,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. Quotient Groups/Composition Series and the Hölder Program.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,7 +156,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Composition Series and the Hölder Program"
+              "title": "Graph view"
             }
           }
         ]
@@ -182,7 +179,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Quotient Groups/Composition Series and the Hölder Program.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Composition Series and the Hölder Program"
+              "title": "Backlinks"
             }
           },
           {
@@ -201,12 +197,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Quotient Groups/Composition Series and the Hölder Program.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Composition Series and the Hölder Program"
+              "title": "Outgoing links"
             }
           },
           {
@@ -227,11 +222,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3. Quotient Groups/Composition Series and the Hölder Program.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Composition Series and the Hölder Program"
+              "title": "Outline"
             }
           }
         ],
@@ -253,9 +246,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a07bdef0582ea50c",
+  "active": "8b22735763af86f6",
   "lastOpenFiles": [
+    "2. Subgroups/Subgroups.md",
     "3. Quotient Groups/Composition Series and the Hölder Program.md",
+    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "3. Quotient Groups/Isomorphism Theorems.md",
     "4. Group Actions/Theorem of Cauchy.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
@@ -279,14 +274,12 @@
     "This is a new file.md",
     "1. Basics/Homomorphisms and Isomorphisms.md",
     "Images/8a3effcc6cf8682780a20bc84f6d439.jpg",
-    "2. Subgroups/Subgroups.md",
     "Images/Pasted image 20241002144417.png",
     "Images/Pasted image 20241001141911.png",
     "Images/Image_Kernel.jpg",
     "Images",
     "2024-09-30.md",
     "1. Basics/The Dihedral Group.md",
-    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "Untitled 1.canvas",
     "2. Subgroups/Lattices of Subgroups.md",
     "3. Quotient Groups",
