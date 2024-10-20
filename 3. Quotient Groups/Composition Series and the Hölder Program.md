@@ -110,10 +110,11 @@ For the Inductive Hypothesis, we assume that if $\min(r, s) < n$, then the compo
 $$
 G/M_{s-1} \simeq N_{r-1} / (N_{r-1} \cap M_{s-1})
 $$
-and the simplicity of $G / M_{s-1}$ shows that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor pf $N_{r-1}$ in the composition series. Likewise, we may also deduce that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor of $M_{r-1}$ in the composition series. We can then apply the inductive hypothesis to $N_{r - 1} \cap M_{s-1}$, which asserts that all composition factors of it are in bijective correspondence, to conclude that: 
+and the simplicity of $G / M_{s-1}$ shows that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor pf $N_{r-1}$ in the composition series. Likewise, we may also deduce that $N_{r-1} \cap M_{s-1}$ is the immediate predecessor of $M_{r-1}$ in the composition series. We can then apply the inductive hypothesis to $N_{r - 1} \cap M_{s-1}$, which asserts that all composition factors of it are in bijective correspondence, to conclude that:
 $$
 N_{r-1} \cap M_{s-1} = N_{r-2} = M_{s-2}
-$$ and hence, $r = s$ and all composition factors of $G$ in the two composition series are permutations with each other. This completes the proof of the Jordan-Hölder Theorem. 
+$$
+and hence, $r = s$ and all composition factors of $G$ in the two composition series are permutations with each other. This completes the proof of the Jordan-Hölder Theorem. 
 
 The Jordan-Hölder Theorem shows us that in a sense, we can obtain information about a group by studying its composition factors, i.e. simple groups. The importance to study simple groups is hence revealed and this leads to the proposal of the so called *Hölder Program* for the study of Finite Groups: 
 
