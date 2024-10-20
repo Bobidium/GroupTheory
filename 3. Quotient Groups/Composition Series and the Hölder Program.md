@@ -115,4 +115,52 @@ $$
 N_{r-1} \cap M_{s-1} = N_{r-2} = M_{s-2}
 $$ and hence, $r = s$ and all composition factors of $G$ in the two composition series are permutations with each other. This completes the proof of the Jordan-Hölder Theorem. 
 
+The Jordan-Hölder Theorem shows us that in a sense, we can obtain information about a group by studying its composition factors, i.e. simple groups. The importance to study simple groups is hence revealed and this leads to the proposal of the so called *Hölder Program* for the study of Finite Groups: 
+
+>[!abstract] Hölder Program
+>1. Classify **all** finite simple groups
+>2. Find all ways of "putting simple groups together" to form other groups
+
+If the Hölder Program is completes, we can then obtain all the information about a group simply by studying its simple composition factors. The first requirement of the Hölder Program is already completed in 1980, where it was found that there are 18 families of simple groups and 26 simple groups that don't belong to them such that every simple group is isomorphic to one of the groups in the list. 
+
+The second requirement is not yet completed till now. More specifically, the second part deals with finding all groups that contain a normal subgroup $N$ where $N \simeq B$ and $G/N \simeq A$ for any given groups $A$ and $B$. Again, we are faced with the situation of obtaining information about a group from its subgroups and quotient groups. 
+
 ### Solvable Groups
+
+Another important concept in finite group theory is *solvable groups*. 
+
+>[!d] Solvable Groups
+>A group $G$ is *solvable* if there exists a chain of subgroups:
+>$$
+>1 = G_0 \unlhd G_1 \unlhd ... \unlhd G_s = G
+>$$
+>such that $G_{i+1}/G_i$ is abelian for all $i = 0, 1, ..., s$.
+
+>[!warning] Note
+>The definition of solvable groups looks very similar to the definition of composition series, but there are a few important points to notice: 
+>1. The existence of only **one** chain as described in the definition will be sufficient to prove that the group is solvable. 
+>2. A solvable group is **not necessarily finite**. An infinite group can be solvable, i.e. $\mathbb{Z}$. 
+
+We have the following elegant criteria for the solvability of a group: 
+
+>[!success] Criteria for Solvability
+>Let $G$ be a group and $N \unlhd G$. If $N$ and $G/N$ are both solvable, then $G$ is solvable. 
+
+**Proof**: since $N$ is solvable, we know that there exists a chain of subgroups:
+$$
+1 = N_0 \unlhd N_1 \unlhd ... \unlhd N_n = N
+$$
+where $N_i / N_{i-1}$ is abelian for all $i = 1, ..., n$. As $G/N = \overline{G}$ is also solvable, we can find a chain: 
+$$
+\bar{1} \unlhd \overline{G_1} \unlhd \overline{G_2} \unlhd ... \unlhd \overline{G_m} = \overline{G}
+$$
+where $\overline{G_{i}}/\overline{G_{i-1}}$ is abelian for all $i = 1, ..., n$. By the [[Isomorphism Theorems#Fourth Isomorphism Theorem|Fourth Isomorphism Theorem]] we can deduce that $G_{i} \unlhd G_{i+1}$ and by the [[Isomorphism Theorems#Third Isomorphism Theorem|Third Isomorphism Theorem]], $G_i / G_{i-1} \simeq \overline{G_i} / \overline{G_{i-1}}$, so $G_i/G_{i-1}$ also abelian. Thus: 
+$$
+1 = N_0 \unlhd N_1 \unlhd ... \unlhd N_n = N = G_0 \unlhd G_! \unlhd ... \unlhd G_m = G
+$$
+is a chain with successive quotients abelian. This proves that $G$ is solvable. 
+
+The following proposition connects **finite** solvable groups with our previous discussions on composition series: 
+
+>[!success] Solvable Groups and Composition Factors
+>
