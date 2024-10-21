@@ -172,9 +172,9 @@ $$
 $$
 such that for each $1 \leq i \leq n$, $G_i / G_{i-1}$ is abelian. Let $H \leq G$, then we claim that: 
 $$
-1 = (G_0 \cap H) \unlhd (G_1 \cap H) \unlhd ...\unlhd G_n \cap H = H
+1 = (G_0 \cap H) \unlhd (G_1 \cap H) \unlhd ...\unlhd (G_n \cap H) = H
 $$
-
+We first verify that the for each $1 \leq i \leq n$, $(G_{i-1} \cap H)$ is a normal subgroup of $(G_i \cap H)$.  
 
 The following proposition connects **finite** solvable groups with our previous discussions on composition series: 
 
