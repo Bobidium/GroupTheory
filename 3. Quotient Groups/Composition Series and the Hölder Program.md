@@ -168,8 +168,13 @@ The converse of the above proposition is also true: (We shall not prove that all
 
 **Proof**: If $G$ is solvable, then there exists a chain of subgroups: 
 $$
-
+1 = G_0 \unlhd G_1 \unlhd ... \unlhd G_n = G
 $$
+such that for each $1 \leq i \leq n$, $G_i / G_{i-1}$ is abelian. Let $H \leq G$, then we claim that: 
+$$
+1 = (G_0 \cap H) \unlhd (G_1 \cap H) \unlhd ...\unlhd G_n \cap H = H
+$$
+
 
 The following proposition connects **finite** solvable groups with our previous discussions on composition series: 
 
