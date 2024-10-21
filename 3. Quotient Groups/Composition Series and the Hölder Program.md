@@ -161,6 +161,16 @@ $$
 $$
 is a chain with successive quotients abelian. This proves that $G$ is solvable. 
 
+The converse of the above proposition is also true: (We shall not prove that all quotiet groups of a solvable group are solvable because the proof is long and tedious)
+
+>[!success] Subgroups of a Solvable Group
+>Every Subgroup of a Solvable Group is solvable. 
+
+**Proof**: If $G$ is solvable, then there exists a chain of subgroups: 
+$$
+
+$$
+
 The following proposition connects **finite** solvable groups with our previous discussions on composition series: 
 
 >[!success] Solvable Groups and Composition Factors
