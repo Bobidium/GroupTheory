@@ -130,12 +130,38 @@ which proves that the sign function is indeed a homomorphism.
 From this proposition, we may deduce that the ordinary rules of parity holds for the permutations, i.e.: 
 $$
 \begin{align}
-\text{odd} \times \text{odd} &= \text{even} \\
+\text{odd} \times \text{odd} &= \text{odd} \\
 \text{even} \times  \text{even} &= \text{even}\\
-\text{odd} \times \text{even} &= \text{odd}
+\text{odd} \times \text{even} &= \text{even}
 \end{align}
 $$
 where the "even" and "odd" refer to the signs of permutations. 
+
+The fact that $\epsilon$ is a homomorphism is very useful in calculations. For instance, we can shows that every transposition is an odd permutation: 
+
+>[!success] Transpositions are Odd Permutations
+>For any $(ij) \in S_n$, $\epsilon(ij) = 1$. 
+
+**Proof**: First, notice that $\epsilon(12) = -1$ as $(12)$ only reverses the indices in the factor $(x_1 - x_2)$ in $\Delta$ (As $x_1, x_2$ have the smallest indices). Next, we can see that any transposition $(ij)$ can be written as:
+$$
+(ij) = \lambda (12) \lambda
+$$
+where $\lambda$ is the transposition $(1i)$. As $\epsilon$ is a homomorphism, we have the followig calculation:
+$$
+\begin{align}
+\epsilon(ij) &= \epsilon(\lambda(12)\lambda)\\
+&= \epsilon(\lambda)^2 \epsilon(12)\\
+&= 1 \times (-1) \\
+&= -1
+\end{align}
+$$
+Hence, all transpositions are odd permutations. 
+
+As a consequence of this proposition, we have that if a permutation can be expressed as a product of $n$ transpositions, then the sign of the permutation is simply $(-1)^n$. In other words, if $n$ is even, then the permutation is even; if $n$ is odd, then the permutation is odd. Since the sign of a permutation is **uniquely defined** without ambiguity for each, we can finally deduce that no matter how we decompose a permutation into transposition,  the number of transpositions in each decomposition must have the **same parity** as they must give out the same sign of the permutation. 
+
+>[!warning] Note
+>Up to this point, we can see the benefits in defining the sign independent of the parity of the number of transpositions. In this as long as we can prove that these two definitions are equivalent, we can easily deduce that all transposition decompositions of the same permutation have the same parity in the number of transpositions. If we defined sign directly using parity, the proof would have been much more tedious. 
+
 
 
 ### The Alternating Groups $A_n$
