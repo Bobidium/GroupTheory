@@ -53,10 +53,14 @@
             "id": "8b22735763af86f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1. Basics/The Matrix Group and Quaternions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Matrix Group and Quaternions"
             }
           }
         ],
@@ -265,15 +269,15 @@
   },
   "active": "86855798cae0b3d0",
   "lastOpenFiles": [
-    "1. Basics/The Symmetric Group.md",
+    "1. Basics/The Matrix Group and Quaternions.md",
     "3. Quotient Groups/The Alternating Groups.md",
+    "1. Basics/The Symmetric Group.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
     "2. Subgroups/Cyclic Groups.md",
     "3. Quotient Groups/Quotient Groups.md",
     "3. Quotient Groups/Composition Series and the Hölder Program.md",
     "2. Subgroups/Subgroups.md",
     "4. Group Actions/Theorem of Cauchy.md",
-    "1. Basics/The Matrix Group and Quaternions.md",
     "3. Quotient Groups/Isomorphism Theorems.md",
     "1. Basics/Homomorphisms and Isomorphisms.md",
     "1. Basics/The Dihedral Group.md",

@@ -54,6 +54,36 @@ This can be verified by looking at where $i$ and $i+1$ are mapped to. When $(12.
 
 ### Sign of Permutations
 
+The fact that each permutation can be expressed as a product of transpositions motivates the following question: It is obvious that each permutation can be decomposed into transpositions in a variety of ways. Are there any **commonalities** between these decompositions? This leads naturally to the notion of the *sign* of permutations and we shall prove in this subsection that for any permutation, the **parity** of the number of transpositions is the same in all decompositions into transpositions. 
+
+We shall define the *sign* of a permutation without using parities and then prove that this definition is equivalent to the parity definition. In this case, we shall define the sign using **polynomials**: 
+
+>[!d] Sign of a Permutation
+>Let $x_1, ..., x_n$ be independent variables, and let $\Delta$ be the polynomial such that:
+>$$
+>\Delta = \prod_{1 \leq i < j \leq n} (x_i - x_j)
+>$$
+>Let $\sigma \in S_n$ act on the polynomial $\Delta$ by exchanging the indices: 
+>$$
+>\sigma(\Delta) = \prod_{1 \leq i < j \leq n} (x_{\sigma(i)} - x_{\sigma(j)})
+>$$
+>Then consequently, we have that:
+>$$
+>\sigma(\Delta) = \pm \Delta
+>$$
+>Using this fact, we can define the sign of the permutation $\epsilon(\sigma)$ as:
+>$$
+>\epsilon(\sigma) = \begin{cases}
+>1 & \text{if } \sigma(\Delta) = \Delta \\
+>-1 & \text{if } \sigma(\Delta) = \Delta
+>\end{cases}
+>$$
+
+
+
+
+
+
 
 ### The Alternating Groups $A_n$
 
