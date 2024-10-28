@@ -205,7 +205,7 @@ As $\epsilon(\sigma)$ is a surjective homomorphism from $S_n$ to $\{\pm1\}$ and 
 >[!success] Isomorphism Type of $S_n / A_n$
 >$S_n / A_n \simeq \mathbb{Z}_2$. 
 
-This further implies that $[S_n : A_n] = 2$, where the square brackets denote the [[Lagrange's Theorem and Products of Groups|index]] of $A_n$ in $S_n$. From [[Quotient Groups#Normal Subgroups and Quotient Groups]], we have that any finite subgroup of index $2$ is normal, hence, we have the following corollary: 
+This further implies that $[S_n : A_n] = 2$, where the square brackets denote the [[Lagrange's Theorem and Products of Groups|index]] of $A_n$ in $S_n$. From [[Lagrange's Theorem and Products of Groups#Normal Subgroups Applying Lagrange]], we have that any finite subgroup of index $2$ is [[Quotient Groups#Normal Subgroups and Quotient Groups|normal]], hence, the following corollary can be derived easily: 
 
 >[!important] Corollary
 >$A_n$ is a normal subgroup of $S_n$.  
