@@ -178,7 +178,34 @@ Using the result that every permutation can be expressed as disjoint cycles, we 
 >[!success] Sign of any Permutation
 >A permutation $\sigma$ is odd if and only if the number of cycles of even lengths in its cycle decomposition is odd. 
 
+As an example, we have: 
+
+>[!example] Determining the Sign of a Permutation
+>Let $\sigma = (123)(1245)(23)(2456)$, then using the above proposition, we can easily deduce that $\epsilon(\sigma) = -1$ as it contains three cycles of even lengths. 
 
 ### The Alternating Groups $A_n$
 
+The Alternating group is defined to be the subgroup of $S_n$ consisting of all **even permutations**: 
 
+>[!d] Alternating Group $A_n$
+>The *Alternating Group* $A_n$ consists of all the even permutations in $S_n$, i.e.
+>$$
+>A_n = \{ \sigma \in S_n : \epsilon(\sigma) = 1 \}
+>$$
+
+It is easy to verify that $A_n$ is a subgroup of $S_n$: 
+
+>[!success] $A_n$ is a Group
+>$A_n \leq S_n$. 
+
+**Proof**: Trivial using the fact that the sign of permutations in $S_n$ is a homomorphism. 
+
+As $\epsilon(\sigma)$ is a surjective homomorphism from $S_n$ to $\{\pm1\}$ and $A_n = \text{Ker}(\epsilon)$ (All even permutations have sign $1$), we can easily derive, using the [[Isomorphism Theorems#First Isomorphism Theorem|First Isomorphism Theorem]] the following proposition: 
+
+>[!success] Isomorphism Type of $S_n / A_n$
+>$S_n / A_n \simeq \mathbb{Z}_2$. 
+
+This further implies that $[S_n : A_n] = 2$, where the square brackets denote the [[Lagrange's Theorem and Products of Groups|index]] of $A_n$ in $S_n$. From [[Quotient Groups#Normal Subgroups and Quotient Groups]], we have that any finite subgroup of index $2$ is normal, hence, we have the following corollary: 
+
+>[!important] Corollary
+>$A_n$ is a normal subgroup of $S_n$.  
