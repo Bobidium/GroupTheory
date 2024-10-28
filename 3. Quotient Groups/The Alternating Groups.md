@@ -75,13 +75,30 @@ We shall define the *sign* of a permutation without using parities and then prov
 >$$
 >\epsilon(\sigma) = \begin{cases}
 >1 & \text{if } \sigma(\Delta) = \Delta \\
->-1 & \text{if } \sigma(\Delta) = \Delta
+>-1 & \text{if } \sigma(\Delta) = -\Delta
 >\end{cases}
 >$$
+>If $\epsilon(\sigma) = 1$, $\sigma$ is an *even permutation*, otherwise, $\sigma$ is an *odd permutation*. 
 
+>[!warning] Note
+>Notice that in each factor of the polynomial, the index of the variables is always **increasing**. In this sense, the sign of a permutation is the **parity** of the number of factors that has the indices reversed when acted by $\sigma$. 
 
+We shall illustrate this definition using an example: 
 
-
+>[!example] Example of Sign of Permutation
+>Consider the permutation $(1234) \in S_4$, the corresponding polynomial $\Delta$ in $S_4$ is:
+>$$
+>\Delta = (x_1 - x_2)(x_2 - x_3) (x_3 - x_4)(x_1 - x_3)(x_1 - x_4)(x_2 - x_4)
+>$$
+>When we consider the action of $(1234)$ on the polynomial, we have that: 
+>$$
+ \begin{align}
+\sigma(\Delta) &= (x_2 - x_3)(x_3 - x_4)(x_4 - x_1)(x_2 - x_4)(x_2  -x_1)(x_3 - x_1)\\
+&= (x_2 - x_3)(x_3 - x_4)(-(x_1 - x_4))(x_2 - x_4)(-(x_1  -x_2))(-(x_1 - x_3)) \\
+&= -\Delta
+\end{align}
+>$$
+Hence, $\epsilon(1234) = -1$ and $(1234)$ is an odd permutation in in $S_4$.  
 
 
 
