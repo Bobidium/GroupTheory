@@ -162,6 +162,21 @@ As a consequence of this proposition, we have that if a permutation can be expre
 >[!warning] Note
 >Up to this point, we can see the benefits in defining the sign independent of the parity of the number of transpositions. In this as long as we can prove that these two definitions are equivalent, we can easily deduce that all transposition decompositions of the same permutation have the same parity in the number of transpositions. If we defined sign directly using parity, the proof would have been much more tedious. 
 
+As a simple example, we can use the above discussions to compute the sign of an $n$-cycle relatively easily: 
+
+>[!success] Sign of an $n$-Cycle
+>An $n$-cycle is an odd permutation if and only if $n$ is even. 
+
+**Proof**: The proof only requires the following observation: 
+$$
+(a_1a_2...a_n) = (a_1a_2)(a_1a_3)...(a_1a_n)
+$$
+so every $n$-cycle can be decomposed into a product of $n-1$ cycles. Hence, $n$ is even if and only if $n-1$ is odd if and only if $(a_1a_2...a_n)$ is an odd permutation. 
+
+Using the result that every permutation can be expressed as disjoint cycles, we have the following nice criteria to determine the sign of any permutation:
+
+>[!success] Sign of any Permutation
+>A permutation $\sigma$ is odd if and only if the number of cycles of even lengths in its cycle decomposition is odd. 
 
 
 ### The Alternating Groups $A_n$
