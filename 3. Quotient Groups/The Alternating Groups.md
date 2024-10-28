@@ -100,6 +100,42 @@ We shall illustrate this definition using an example:
 >$$
 Hence, $\epsilon(1234) = -1$ and $(1234)$ is an odd permutation in in $S_4$.  
 
+Notice that the "sign" of a permutation is in fact a map from $S_n$ to $\pm 1$. Moreover, we can prove that it is a [[Homomorphisms and Isomorphisms|Homomorphism]], as shown in the following proposition: 
+
+>[!success] Sign Function is a Homomorphism
+>The sign function $\epsilon : S_n \to \{\pm 1\}$ defined above is a homomorphism. 
+
+**Proof**: By the definition of sign, we have that for any $\sigma, \tau \in S_n$, the product $\tau \sigma$ acts on the polynomial $\Delta$ giving the result: 
+$$
+\tau \sigma(\Delta) = \prod_{1 \leq i < j \leq n} (x_{\tau \sigma(i)} - x_{\tau \sigma(j)})
+$$
+By the definition of the product of permutations, we can show that:
+$$
+\tau \sigma(\Delta) = \tau (\sigma(\Delta)) =  \tau(\prod_{1 \leq i < j \leq n} (x_{ \sigma(i)} - x_{ \sigma(j)}))
+$$
+Suppose $\epsilon(\sigma) = (-1)^k$, then the above expression can be written as: 
+$$
+\tau \sigma(\Delta) = (-1)^k\tau(\Delta) = \epsilon(\sigma) \tau(\Delta)
+$$
+Notice that we can pull out the factor of $(-1)^k$ because $\tau$ only permutes the indices and the multiplication by a constant doesn't change the result. Hence, further expanding the expression yields: 
+$$
+\tau \sigma(\Delta) = \epsilon(\sigma) (\prod_{1 \leq i < j \leq n} (x_{ \sigma(i)} - x_{ \sigma(j)})) = \epsilon(\sigma) \epsilon(\tau) \Delta
+$$
+Hence, we may conclude that: 
+$$
+\epsilon(\sigma \tau) = \epsilon(\sigma) \epsilon(\tau)
+$$
+which proves that the sign function is indeed a homomorphism. 
+
+From this proposition, we may deduce that the ordinary rules of parity holds for the permutations, i.e.: 
+$$
+\begin{align}
+\text{odd} \times \text{odd} &= \text{even} \\
+\text{even} \times  \text{even} &= \text{even}\\
+\text{odd} \times \text{even} &= \text{odd}
+\end{align}
+$$
+where the "even" and "odd" refer to the signs of permutations. 
 
 
 ### The Alternating Groups $A_n$
