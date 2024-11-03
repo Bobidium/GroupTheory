@@ -69,6 +69,10 @@ In some rare occasion, it might be the case that group elements acting on a sing
 >[!d] Transitive Group Actions
 >Let $G$ be a group acting on a non-empty set $A$. Then the action of $G$ on $A$ is called *transitive* if and only if there is only **one orbit**. In other words, for any $a, b \in A$, there exists $g \in G$ such that $a = g \cdot b$. 
 
+### Burnside's Lemma
+
+### Application: Unique Cycle Decomposition
+
 
 
 
