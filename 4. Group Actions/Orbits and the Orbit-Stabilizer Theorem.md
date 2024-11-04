@@ -83,6 +83,15 @@ $$
 $$
 Hence, $f$ is the desired bijection and the desired result follows naturally. 
 
+As an easy corollary, we can see that a group action is transitive if and only if $|\text{orb}_G(a)| = |A|$ if and only if $|G : \text{Stab}_G(a)| = |A|$. As an example, using this result, we can prove that the action of $S_n$ on $\{1, 2, ..., n\}$ is transitive: 
+
+>[!example] An action of $S_n$ is transitive
+>As mentioned previously, the stabilizer of any element $i$ is isomorphic to $s_{n-1}$, which has an order of $(n-1)!$. Hence, by the Orbit-Stabilizer Theorem, we have:
+>$$
+>|\text{orb}_{S_n} (i)| = \frac{n!}{(n-1)!} = n = |A|
+>$$
+>which implies that the action is transitive. 
+
 ### Burnside's Lemma
 
 ### Application: Unique Cycle Decomposition
