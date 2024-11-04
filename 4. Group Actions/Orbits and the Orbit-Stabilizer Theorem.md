@@ -72,6 +72,10 @@ In some rare occasion, it might be the case that group elements acting on a sing
 Next, we shall prove some combinatorial results regarding the total number of elements in a particular orbit (*Orbit-Stabilizer Theorem*) and the total number of distinct orbits (*Burnside's Lemma*) for a group action:
 
 >[!success] Orbit-Stabilizer Theorem
+>Let $G$ be a group acting on the non-empty set $A$. Then the number of elements in the orbit containing $a \in A$, i.e. $|\text{orb}_G(a)|$ is: 
+>$$
+>|\text{orb}_G(a)
+>$$
 
 ### Burnside's Lemma
 
