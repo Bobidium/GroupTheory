@@ -77,6 +77,13 @@ Next, we shall prove some combinatorial results regarding the total number of el
 >|\text{orb}_G(a)| = [G:\text{Stab}_G(a)]
 >$$
 
+>[!warning] Note
+>Notice that this thoerem holds even for **infinite groups**, as the index is defined without specifying that the group is finite. In the special case where the group is indeed finite, this formula can be rewritten as:
+>$$
+>|\text{orb}_G(a)| = \frac{|G|}{|\text{Stab}_G(a)|}
+>$$
+>using Lagrange's Theorem
+
 **Proof**: We shall denote the stabilizer of $a$ using the notation $G_a$. We proceed with the proof by constructing a direct bijection between the set of left cosets of $G_a$ and the orbit containing $a$. For any $b \in \text{orb}_G(a)$, $b$ can be expressed as $g \cdot a$ for some $g \in G$. We define the map $f : \text{orb}_G(a)\to G/G_a$ by: $f(g \cdot a) = gG_a$. We can now verify that this is indeed a bijection. The map is clearly surjective as every coset of $G_a$ can be expressed as $gG_a$ for some $g \in G$. $f$ is also injective as $gG_a = g'G_a$ if and only if $g^{-1}g' \in G_a$ and resultingly: 
 $$
 (g^{-1}g') \cdot a = e \implies g\cdot a = g^{-1} \cdot a
@@ -93,6 +100,32 @@ As an easy corollary, we can see that a group action is transitive if and only i
 >which implies that the action is transitive. 
 
 ### Burnside's Lemma
+
+We have another very useful combinatorial result about orbits that gives a formula for the total number of distinct orbit for a given group action. 
+
+>[!success] Burnside's Lemma
+>Let $G$ be a group acting on the non-empty set $X$ and let $|G/X|$ denote the number of distinct orbits of the group action. Then, the following formula holds: 
+>$$
+>|G/X| = \frac{1}{|G|} \sum_{g \in G} X^g
+>$$ 
+>where $X^g$ denotes the total number of elements in $X$ that are **fixed** by the element $g$. 
+
+**Proof**: The proof of this result is very elegant. We can first rewrite the expression on the RHS as: 
+$$
+\frac{1}{|G|} \sum_{g \in G} |\text{Stab}_G(a)|
+$$
+because from the example table below: 
+
+![[b4806912991c5204455de2d2c9b301b.jpg| center | 350]]
+
+We are simply shifting our perpsective from summation by rows to summation by column to get the above expression. Applying the Orbit-Stabilizer Theorem, we may further deduce that the expression is: 
+$$
+\sum_{x \in X} \frac{1}{|\text{orb}_G(x)|}
+$$
+From this point on, we can simply make the easy observation that if $x$ and $y$ belong to the same orbit, then they $|\text{orb}_G(x)| = |\text{orb}_G(y)|$, and consequently, we can group the above summation by the orbits and notice that the terms in the same orbit sums to $1$. Hence, this counts exactly the disitinct orbits of the action and proves the desired formula: 
+$$
+|G/X| = \frac{1}{|G|} \sum_{g \in G} X^g
+$$
 
 ### Application: Unique Cycle Decomposition
 
