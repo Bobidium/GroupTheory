@@ -74,7 +74,7 @@ Next, we shall prove some combinatorial results regarding the total number of el
 >[!success] Orbit-Stabilizer Theorem
 >Let $G$ be a group acting on the non-empty set $A$. Then the number of elements in the orbit containing $a \in A$, i.e. $|\text{orb}_G(a)|$ is: 
 >$$
->|\text{orb}_G(a)| = \frac{|G|}[|\text{Stab}_G(a)|]
+>|\text{orb}_G(a)| = \frac{|G|}[|\text{Stab}_G(a)|}
 >$$
 
 ### Burnside's Lemma
