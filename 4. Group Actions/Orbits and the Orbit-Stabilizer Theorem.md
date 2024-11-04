@@ -27,7 +27,7 @@ This provides an example of a *non-transitive* group action, as we shall see in 
 
 ### Orbit and the Orbit-Stabilizer Theorem
 
-In this section, we introduce another important property of group actions -- the *orbit* of a group action. By studying the orbits of a group action, we are able to obtain information about the group itself (As we will see in [[Sylow's Theorem]]). It can be said that the orbits of a group action assigns value to the study of actions. 
+In this section, we introduce another important property of group actions -- the *orbit* of a group action. By studying the orbits of a group action, we are able to obtain information about the group itself (As we will see in [[Sylow's Theorem]] and the the last section). It can be said that the orbits of a group action assigns value to the study of actions. 
 
 The orbit has many commonalities with [[Lagrange's Theorem and Products of Groups|cosets]], the most important of which is that they both originate from an **equivalence relation**: 
 
@@ -132,7 +132,7 @@ We shall consider a simple combinatorics question that can be solved using Burns
 >[!example] Coloring of a Square
 >Suppose we are given $n$ distinct colors to color the four vertices of a square. How many distinct colorings are there? (Note: two colorings are considered the **same** if and only if there exists a rotation about the center of the square that transforms one coloring to another). 
 
-**Solution**: Consider the group $G = \{e, r, r^2, r^3\} \leq D_8$ acting on the four vertices of a square, where $r$ denotes the rotation clockwise by $90$ degrees. Notice that the number of distinct colorings is the same as the number of distinct orbits of this group action, so we can apply Burnside's Lemma. First, consider the number of colorings that are fixed by the identity rotation. Clearly, all colorings are fixed by the identity, so consequently, $X^e = n^4$. How many colorings are fixed by a rotation by 90 degrees? Notice that the diagonals of the square are exchanged after the rotation, so the only case where a coloring is fixed by this rotation is when **all four vertices** have the same color. Hence, in this case $X^r = n$. For a rotation clockwise by $180$ degrees, notice that the top edge and the bottom edge exchange positions, so a coloring is fixed if and only if the vertices in the top edge have the same color, and the vertices in the bottom edge have the same color. This gives a total of $X^{r^2} = n^2$ colorings that are fixed. Lastly, a rotation by $270$ degrees clockwise is equivalent to a rotation by $90$ degrees clockwise, so $X^{r^3} = X^r = n$. Hence, in total, Burnside's Lemma gives us: 
+**Solution**: Consider the group $G = \{e, r, r^2, r^3\} \leq D_8$ acting on the four vertices of a square, where $r$ denotes the rotation clockwise by $90$ degrees. Notice that the number of distinct colorings is the same as the number of distinct orbits of this group action, so we can apply Burnside's Lemma. First, consider the number of colorings that are fixed by the identity rotation. Clearly, all colorings are fixed by the identity, so consequently, $X^e = n^4$. How many colorings are fixed by a rotation by $90$ degrees? Notice that the diagonals of the square are exchanged after the rotation, so the only case where a coloring is fixed by this rotation is when **all four vertices** have the same color. Hence, in this case $X^r = n$. For a rotation clockwise by $180$ degrees, notice that the top edge and the bottom edge exchange positions, so a coloring is fixed if and only if the vertices in the top edge have the same color, and the vertices in the bottom edge have the same color. This gives a total of $X^{r^2} = n^2$ colorings that are fixed. Lastly, a rotation by $270$ degrees clockwise is equivalent to a rotation by $90$ degrees clockwise, so $X^{r^3} = X^r = n$. Hence, in total, Burnside's Lemma gives us: 
 $$
 \frac{1}{|G|} \sum_{g \in G} X^g = \frac{1}{4}(n^4 + n^2 + 2n)
 $$
@@ -153,11 +153,7 @@ where $d$ is the index $[G : G_x] = |\mathcal{O}|$. With the bijection $f$, we c
 $$
 \mathcal{O} = \{\sigma^i(x) : 0 \leq i < d\}
 $$
+This shows that whenever a permutation $\sigma$ acts on an element $x$, it acts as a cycle and produces a corresponding orbit that is also cyclic. As a result, the disjoint orbits of the action corresponds to the cycles, which proves the existence of a cycle decomposition. To prove the uniqueness, we may simply notice that no matter which **representative** we choose for each orbit, the above argument would yield the same cyclic permutation of the elements in the orbit, and, as the orbits of $\langle \sigma \rangle$ are unique determined by $\sigma$, the uniqueness of cycle decomposition can be deduced easily. 
 
-
-
-
-
-
-
-
+>[!warning] Remark
+>This proof shocases the important idea that by studying the **action of a group on a set**, we are actually able to obtain information about the **group structure** itself. This highlights the importance of group actions in all of group theory. 
