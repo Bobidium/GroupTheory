@@ -127,7 +127,20 @@ $$
 |G/X| = \frac{1}{|G|} \sum_{g \in G} X^g
 $$
 
+We shall consider a simple combinatorics question that can be solved using Burnside's Lemma: 
+
+>[!example] Coloring of a Square
+>Suppose we are given $n$ distinct colors to color the four vertices of a square. How many distinct colorings are there? (Note: two colorings are considered the **same** if and only if there exists a rotation about the center of the square that transforms one coloring to another). 
+
+**Solution**: Consider the group $G = \{e, r, r^2, r^3\} \leq D_8$ acting on the four vertices of a square, where $r$ denotes the rotation clockwise by $90$ degrees. Notice that the number of distinct colorings is the same as the number of distinct orbits of this group action, so we can apply Burnside's Lemma. First, consider the number of colorings that are fixed by the identity rotation. Clearly, all colorings are fixed by the identity, so consequently, $X^e = n^4$. How many colorings are fixed by a rotation by 90 degrees? Notice that the diagonals of the square are exchanged after the rotation, so the only case where a coloring is fixed by this rotation is when **all four vertices** have the same color. Hence, in this case $X^r = n$. For a rotation clockwise by $180$ degrees, notice that the top edge and the bottom edge exchange positions, so a coloring is fixed if and only if the vertices in the top edge have the same color, and the vertices in the bottom edge have the same color. This gives a total of $X^{r^2} = n^2$ colorings that are fixed. Lastly, a rotation by $270$ degrees clockwise is equivalent to a rotation by $90$ degrees clockwise, so $X^{r^3} = X^r = n$. Hence, in total, Burnside's Lemma gives us: 
+$$
+\frac{1}{|G|} \sum_{g \in G} X^g = \frac{1}{4}(n^4 + n^2 + 2n)
+$$
+different colorings of the square with $n$ colors. 
+
 ### Application: Unique Cycle Decomposition
+
+
 
 
 
