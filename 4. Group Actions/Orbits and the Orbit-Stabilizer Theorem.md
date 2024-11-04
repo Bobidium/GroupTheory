@@ -74,8 +74,14 @@ Next, we shall prove some combinatorial results regarding the total number of el
 >[!success] Orbit-Stabilizer Theorem
 >Let $G$ be a group acting on the non-empty set $A$. Then the number of elements in the orbit containing $a \in A$, i.e. $|\text{orb}_G(a)|$ is: 
 >$$
->|\text{orb}_G(a)| = \frac{|G|}{|\text{Stab}_G(a)|}
+>|\text{orb}_G(a)| = [G:\text{Stab}_G(a)]
 >$$
+
+**Proof**: We shall denote the stabilizer of $a$ using the notation $G_a$. We proceed with the proof by constructing a direct bijection between the set of left cosets of $G_a$ and the orbit containing $a$. For any $b \in \text{orb}_G(a)$, $b$ can be expressed as $g \cdot a$ for some $g \in G$. We define the map $f : \text{orb}_G(a)\to G/G_a$ by: $f(g \cdot a) = gG_a$. We can now verify that this is indeed a bijection. The map is clearly surjective as every coset of $G_a$ can be expressed as $gG_a$ for some $g \in G$. $f$ is also injective as $gG_a = g'G_a$ if and only if $g^{-1}g' \in G_a$ and resultingly: 
+$$
+(g^{-1}g') \cdot a = e \implies g\cdot a = g^{-1} \cdot a
+$$
+Hence, $f$ is the desired bijection and the desired result follows naturally. 
 
 ### Burnside's Lemma
 

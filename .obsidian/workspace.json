@@ -153,7 +153,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.37264187144835287,
+                  "scale": 0.4130100847224976,
                   "close": true
                 }
               },
@@ -248,7 +248,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d016dfcb4bff7fcc",
+  "active": "143f8596b7b0de69",
   "lastOpenFiles": [
     "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
     "3. Quotient Groups/Quotient Groups.md",
