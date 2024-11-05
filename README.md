@@ -5,4 +5,6 @@ These are the Group Theory Notes for Philomath.
 How should I view these notes? 
 (You can of course view them directly on Github, but some of the pretty features would not be rendered! So, it is recommended that you download **Obsidian** to ensure the best experience reading the notes. You can follow the steps below to link your obsidian vault with this repository to get real-time updates in the notes.) 
 
-1. Download Obsidian. Go to https://obsidian.md/
+1. Download Obsidian. Go to https://obsidian.md/ and click "Get Obsidian for Windows" (or "other platforms" if you are using Apple)
+![Uploading image.png…]()
+3. a
