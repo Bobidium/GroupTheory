@@ -31,4 +31,4 @@ There are two ways you can do this. Here is one:
 When you want to sync (or **pull**) manually in Obsidian, you can set up a hotkey: 
 1. In the "Community Plugin" page, go to the icon of a plus within a circle next to "Git".
 2. Find the command "Git:Pull" and click the plus sign next to it.
-3. Press the key combination you like and every time you want to pull the notes from Github, using the same key combination. (I used "Alt+P")
+3. Press the key combination you like and every time you want to pull the notes from Github, using the same key combination. (I am using "Alt+P")
