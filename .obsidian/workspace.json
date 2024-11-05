@@ -45,7 +45,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,11 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Orbits and the Orbit-Stabilizer Theorem"
+              "title": "Outline"
             }
           }
         ]
@@ -130,7 +129,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,7 +156,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Orbits and the Orbit-Stabilizer Theorem"
+              "title": "Graph view"
             }
           }
         ]
@@ -248,10 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d016dfcb4bff7fcc",
+  "active": "79b1e7d98f996682",
   "lastOpenFiles": [
-    "3. Quotient Groups/Quotient Groups.md",
     "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
+    "3. Quotient Groups/Quotient Groups.md",
     "b4806912991c5204455de2d2c9b301b.jpg",
     "3. Quotient Groups/Isomorphism Theorems.md",
     "Images/Pasted image 20241103211751.png",
