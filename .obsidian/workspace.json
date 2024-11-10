@@ -36,16 +36,6 @@
             }
           },
           {
-            "id": "79b1e7d98f996682",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "0d0f41ef63f7eacb",
             "type": "leaf",
             "state": {
@@ -60,19 +50,17 @@
             }
           },
           {
-            "id": "39f842088d8936aa",
+            "id": "79b1e7d98f996682",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,9 +125,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -155,6 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +173,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -272,14 +263,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39f842088d8936aa",
+  "active": "0d0f41ef63f7eacb",
   "lastOpenFiles": [
+    "4. Group Actions/Group Actions.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "3. Quotient Groups/Quotient Groups.md",
-    "4. Group Actions/Group Actions.md",
+    "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
     "4. Group Actions/Theorem of Cauchy.md",
     "README.md",
-    "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
     "1. Basics/The Dihedral Group.md",
     "3. Quotient Groups/SIgns of Permutations and the Alternating Groups.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
