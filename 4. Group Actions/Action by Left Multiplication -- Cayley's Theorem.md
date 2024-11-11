@@ -45,13 +45,19 @@ Again, it is trivial to verify that this is indeed a group action.
 
 ### The Main Theorem
 
-In this section, we derive the absolutely crucial result that summarizes the key properties of the actions defined in the previous section. The important theorem due to Cayley that describes the relationship between groups and symmetries will then follow as an immediate consequence to the theorem. 
+In this section, we derive the absolutely crucial result that summarizes the key properties of the actions defined in the previous section. The important theorem due to Cayley that describes the relationship between groups and symmetries will then follow as an immediate consequence to the theorem. j
 
 >[!success] Properties of Action by Left Multiplication with Cosets
 >Let $G$ be a group and $H \leq G$. Let $A$  denote the set of left coset if $H$ in $G$ and let $G$ act on $A$ via left multiplcation. Denote the permutation representation of this group action as $\pi_H$. Then, the folllowing properties hold:
 >1. $G$ acts transitively on $A$. 
->2. The stabilizer of any $a \in A$ is the subgroup $H$. 
->3. The Kernel of the action is the subgroup $$ \text{Ker}(\pi_H) = \bigcap_{x \in G} x^{-1}Hx$$ and any normal subgroup of $H$ is contained inthe kernel. (i.e. it is the largest normal subgroup in $H$)
+>2. The stabilizer of $eH \in A$ is the subgroup $H$. 
+>3. The Kernel of the action is the subgroup $$ \text{Ker}(\pi_H) = \bigcap_{x \in G} x^{-1}Hx$$ and any normal subgroup of $G$ that is contained in $H$ is contained in the kernel. (i.e. it is the largest normal subgroup of $G$ in $H$)
+
+**Proof**: The proof is relatively easy. We verify the properties one by one: 
+1. To show that $G$ acts transitively on $A$, it suffices to prove that for any $aH, bH \in A$, there exists $g \in G$ such that $g \cdot aH = g \cdot bH$. This can be done by choosing $g = ba^{-1}$ (reference to the previous example on the multiplicatoin of group elements) so that: $$ g \cdot aH = (ga)H = b(a^{-1}a)H = bH$$thus proving that the action is transitive. 
+2. The Stabilizer of $eH$ consists of all the elements $g$ such that $g \cdot eH = eH$. This is equivalent to: $$ gH = eH \iff g \in H $$which completes the proof. 
+3. The Kernel of an action is simply the **intersection** of all stabilizers of the group action. Generalizing the previous property, we can see that for any $aH \in A$, the stabilizer of $aH$ consists of all elements $g \in G$ such that $g \cdot aH = aH$. This is equivalent to: $$ (ga)H = aH \iff a^{-1}ga \in H \iff $$Thus, for the stabilizer of $aH$ consists of exactly the elements of the form $aha^{-1}$ for some $h \in H$. In other words, $\text{stab}_G(aH) = aHa^{-1}$. Resultingly, taking the intersection of all such sets gives the Kernel of the Homomorphism: $$ \text{Ker}(\pi_H) = \bigcap_{x \in G} xHx^{-1} $$To show that this kernel is the largest normal subgroup in $H$, first notice that $\text{Ker}(\pi_H) \leq eHe^{-1} = H$, and for any $xhx^{-1} \in \text{Ker}(\pi_H)$ and $g\in G$, we have $$ gxhx^{-1}g^{-1} = (gx)h(gx ^{-1}) \in\text{Ker}(\pi_H)$$so indeed, $\text{Ker}(\pi_H) \unlhd H$. Now, for any $K \unlhd G$ such that $K \leq H$, we have that for all $x \in G$, $xKx^{-1} = K$,  so: $$ K = \bigcap_{x \in G} xKx^{-1} \leq \bigcap_{x \in G} xHx^{-1} = \text{Ker}(\pi_H)$$which completes the proof. 
+ 
 
 
 
