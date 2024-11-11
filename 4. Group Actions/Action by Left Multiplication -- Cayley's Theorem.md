@@ -48,9 +48,10 @@ Again, it is trivial to verify that this is indeed a group action.
 In this section, we derive the absolutely crucial result that summarizes the key properties of the actions defined in the previous section. The important theorem due to Cayley that describes the relationship between groups and symmetries will then follow as an immediate consequence to the theorem. 
 
 >[!success] Properties of Action by Left Multiplication with Cosets
->Let $G$ be a group and $H \leq G$. Let $A$  denote
-
-
+>Let $G$ be a group and $H \leq G$. Let $A$  denote the set of left coset if $H$ in $G$ and let $G$ act on $A$ via left multiplcation. Denote the permutation representation of this group action as $\pi_H$. Then, the folllowing properties hold:
+>1. $G$ acts transitively on $A$. 
+>2. The stabilizer of any $a \in A$ is the subgroup $H$. 
+>3. The Kernel of the action is the subgroup $$ \text{Ker}(\pi_H) = \bigcap_{x \in G} x^{-1}Hx$$ and any normal subgroup of $H$ is contained inthe kernel. (i.e. it is the largest normal subgroup in $H$)
 
 
 
