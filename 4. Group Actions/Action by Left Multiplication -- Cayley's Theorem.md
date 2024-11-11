@@ -74,10 +74,20 @@ G / \{e\} = G \simeq \text{Im}(\pi_H)
 $$
 As the image of $\pi_H$ is a subgroup of some symmetric group, we are done. 
 
+>[!warning] Note
+>Cayley's theorem can be generalized to left multiplication with cosets. Let $H \leq G$ and $[G : H] = a$, then if $G$ is finite, $G$ must be isomorphic to a subgroup of $S_a$. 
+
 Another rather remarkable consequence of the above theorem is a direct generalization to the normality of groups of index $2$ as described in [[Lagrange's Theorem and Products of Groups#Normal Subgroups Applying Lagrange]]: 
 
 >[!important] Corollary: Normality of Groups of Mininal Prime Index
 >If $G$ is a finite group of order $n$, and $p$ is the smallest prime that divides $n$, then any subgroup of index $p$ in $G$ is normal. 
 
-**Proof**: Let $H \leq G$ be such that $[G:H] = p$, and let $G$ act on the set of cosets of $H$ via left multiplication. Then, it suffices to show that the Kernel of this action, which by the preivous theorem is $K = \bigcap_{x \in G} xHx^{-1}$, is equal to $H$. Suppose $[H : K] = k$, then it suffices to prove that $k = 1$. By [[Lagrange's Theorem and Products of Groups|Lagrange's Theorem]], we have $[G : K] = [G : H] [H : K] = pk$. By the First Isomorphism Theorem, we also have that $G / K$ is isomorphic to a subgroup of $S_p$, so $p! \mid [G : K]$. 
-
+**Proof**: Let $H \leq G$ be such that $[G:H] = p$, and let $G$ act on the set of cosets of $H$ via left multiplication. Then, it suffices to show that the Kernel of this action, which by the preivous theorem is $K = \bigcap_{x \in G} xHx^{-1}$, is equal to $H$. Suppose $[H : K] = k$, then it suffices to prove that $k = 1$. By [[Lagrange's Theorem and Products of Groups|Lagrange's Theorem]], we have $[G : K] = [G : H] [H : K] = pk$. By the First Isomorphism Theorem, we also have that $G / K$ is isomorphic to a subgroup of $S_p$, so $p! \mid [G : K] = pk$ and conseuquently: 
+$$
+k = \frac{p!}{p} = (p-1)!
+$$
+However, by the minimality of $p$, no primes that are less than $p$ can divide $(p-1)!$, from which we can conclude that $k = (p-1)! = 1$ and:
+$$
+\bigcap_{x \in G} xHx^{-1} = H
+$$
+Therefore, $H$ is a normal subgroup of $G$ and we are done. 
