@@ -40,9 +40,18 @@ It will be beneficial to us to generalize this action a bit -- instead of consid
 Again, it is trivial to verify that this is indeed a group action. 
 
 >[!warning] Note
->Notice how action by multiplication with elements is simply a special case of the above action where $H$ is chosen to be $\{e\}$. 
- 
+>Notice how action by multiplication with elements is simply a special case of the above action where $H$ is chosen to be $\{e\}$.
+>
+
 ### The Main Theorem
+
+In this section, we derive the absolutely crucial result that summarizes the key properties of the actions defined in the previous section. The important theorem due to Cayley that describes the relationship between groups and symmetries will then follow as an immediate consequence to the theorem. 
+
+>[!success] Properties of Action by Left Multiplication with Cosets
+>Let $G$ be a group and $H \leq G$. Let $A$  denote
+
+
+
 
 
 ### Cayley's Theorem and Groups of Minimal Prime Index

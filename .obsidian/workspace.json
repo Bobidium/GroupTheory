@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,9 +125,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -143,6 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +173,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -260,7 +263,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79b1e7d98f996682",
+  "active": "0d0f41ef63f7eacb",
   "lastOpenFiles": [
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "4. Group Actions/Group Actions.md",
