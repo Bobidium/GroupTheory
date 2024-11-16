@@ -39,5 +39,14 @@ which shows that our group has exactly the same multiplication table as $V_4$. A
 
 **Proof**: For any $x \in G$, we must have $o(x) \mid p$ by the "Order of Elements Divide Order of Group" Proposition in [[Lagrange's Theorem and Products of Groups]]. If $x \neq e$, then $o(x) \neq 1$. This forces the order of $x$ to be $p$. Consequently, any non-identity element in $G$ has order $p$, which each of them is a generator for $G$. Resultingly, $G$ must be isomorphic to the cyclic group of order $p$. 
 
-### Classification of Groups of Order $6$
+### Classification of Groups of Order 6
+
+>[!success] Groups or Order $6$
+>Every group $G$ of order $6$ is isomorphic to $Z_6$ or $S_3$. 
+
+**Proof**: Obviously, if $G$ is cyclic, it is isomorphic to $Z_6$ (refer to [[Cyclic Groups]]). If $G$ is not cyclic, then $G$ does not contain an element of order $6$. By [[Theorem of Cauchy|Cauchy's Theorem]], $G$ has an element $a$ of order $2$ and an element $b$ of order $3$. Using these two elements, we can see that the following $6$ elements:
+$$
+\{ e, b, b^2, a, ab, ab^2 \}
+$$
+are all distinct elements in $G$. As $G$ has order $6$, this must be **all** elements in $G$ and $a, b$ are the generators of $G$. Consider the subgroup $H - \langle a \rangle$ of order $2$. Notice that $a^{-1}aa = a \in H$ but $b^{-1}ab = ab^2 \not \in H$. Hence, $H$ is a non-normal subgroup of $G$. Let $\bar{H}$ be the set of cosets of $H$ and let $G$ act on $\bar{H}$ by [[Action by Left Multiplication -- Cayley's Theorem|Left Multiplication]], then the permutation representation $\pi_H$ of this action is an injective homomorphism from $G$ to $S_3$ (by Lagrange, $|\bar{H}| = 3$). Furthermore, as $|G| = |S_3| = 6$, $\pi_H$ must be an isomorphism. We can hence conclude that if $G$ is not cyclic, then $G \simeq S_3$, completing the classification.  
 
