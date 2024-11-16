@@ -6,7 +6,7 @@ aliases:
 ---
 ### Definition and Examples
 
-In this note, we shall be studying a partiular example of [[Group Actions]], i.e. action by left multiplication. k
+In this note, we shall be studying a partiular example of [[Group Actions]], i.e. action by left multiplication. 
 
 >[!d] Action by Left Multiplication
 >Let $G$ be a group. We call the action of $G$ on **itself** defined by:
