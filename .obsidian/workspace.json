@@ -36,46 +36,29 @@
             }
           },
           {
-            "id": "ddb417f36692fb20",
+            "id": "395e8982e63580d1",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.7.6"
+                "currentVersion": "1.7.7"
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
-            }
-          },
-          {
-            "id": "029c45efd2d42f5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Group Actions/Action by Conjugation and the Class Equation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Action by Conjugation and the Class Equation"
+              "title": "Release Notes 1.7.7"
             }
           },
           {
             "id": "79b1e7d98f996682",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classification Theorems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Classification Theorems"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,11 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Centralizers, Normalizers, Stabilizers and Kernels"
+              "title": "Outline"
             }
           }
         ]
@@ -160,7 +141,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,12 +163,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6931282757020799,
+                  "scale": 0.35263724849449063,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Centralizers, Normalizers, Stabilizers and Kernels"
+              "title": "Graph view"
             }
           }
         ]
@@ -278,16 +258,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d016dfcb4bff7fcc",
+  "active": "395e8982e63580d1",
   "lastOpenFiles": [
+    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "4. Group Actions/Group Actions.md",
-    "4. Group Actions/Action by Conjugation and the Class Equation.md",
     "Classification Theorems.md",
+    "3. Quotient Groups/Quotient Groups.md",
+    "4. Group Actions/Action by Conjugation and the Class Equation.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
     "3. Quotient Groups/Lagrange's Theorem and Products of Groups.md",
     "README.md",
-    "3. Quotient Groups/Quotient Groups.md",
     "4. Group Actions/Theorem of Cauchy.md",
     "1. Basics/The Dihedral Group.md",
     "3. Quotient Groups/SIgns of Permutations and the Alternating Groups.md",
@@ -308,7 +289,6 @@
     "2. Subgroups/Cyclic Groups.md",
     "3. Quotient Groups/Composition Series and the Hölder Program.md",
     "2. Subgroups/Subgroups.md",
-    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "4. Group Actions/Sylow's Theorem.md",
     "4. Group Actions/Cauchy's Theorem.md",
     "5. Finitely Generated Abelian Groups/Finitely Generated Abelian Groups.md",
