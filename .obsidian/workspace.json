@@ -58,9 +58,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "bb016f8c59c510fa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -80,7 +92,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -125,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
             }
@@ -260,7 +277,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79b1e7d98f996682",
+  "active": "bb016f8c59c510fa",
   "lastOpenFiles": [
     "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
