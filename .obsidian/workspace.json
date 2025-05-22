@@ -50,18 +50,6 @@
             }
           },
           {
-            "id": "7852e90698eefade",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
-          },
-          {
             "id": "79b1e7d98f996682",
             "type": "leaf",
             "state": {
@@ -72,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,12 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -160,6 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +177,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Action by Left Multiplication -- Cayley's Theorem"
             }
           }
         ]
@@ -277,11 +267,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7852e90698eefade",
+  "active": "0d0f41ef63f7eacb",
   "lastOpenFiles": [
-    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
+    "3. Quotient Groups/Isomorphism Theorems.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "3. Quotient Groups/Quotient Groups.md",
+    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
+    "2. Subgroups/Subgroups.md",
     "2. Subgroups/Cyclic Groups.md",
     "4. Group Actions/Action by Conjugation and the Class Equation.md",
     "4. Group Actions/Group Actions.md",
@@ -293,7 +285,6 @@
     "1. Basics/The Dihedral Group.md",
     "3. Quotient Groups/SIgns of Permutations and the Alternating Groups.md",
     "Images/b4806912991c5204455de2d2c9b301b.jpg",
-    "3. Quotient Groups/Isomorphism Theorems.md",
     "Images/Pasted image 20241103211751.png",
     "Images/Pasted image 20241003231409.png",
     "Images/Pasted image 20241001141911.png",
@@ -307,7 +298,6 @@
     "1. Basics/The Matrix Group and Quaternions.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
     "3. Quotient Groups/Composition Series and the Hölder Program.md",
-    "2. Subgroups/Subgroups.md",
     "4. Group Actions/Sylow's Theorem.md",
     "4. Group Actions/Cauchy's Theorem.md",
     "5. Finitely Generated Abelian Groups/Finitely Generated Abelian Groups.md",
