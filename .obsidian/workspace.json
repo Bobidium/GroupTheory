@@ -11,14 +11,10 @@
             "id": "d016dfcb4bff7fcc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Centralizers, Normalizers, Stabilizers and Kernels"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -63,8 +59,7 @@
               "title": "The Matrix Group and Quaternions"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,13 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Basics/The Matrix Group and Quaternions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Matrix Group and Quaternions"
+              "title": "Outline"
             }
           }
         ]
@@ -154,7 +148,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1. Basics/The Matrix Group and Quaternions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +175,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of The Matrix Group and Quaternions"
+              "title": "Graph view"
             }
           }
         ]
@@ -272,17 +265,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79b1e7d98f996682",
+  "active": "d016dfcb4bff7fcc",
   "lastOpenFiles": [
+    "4. Group Actions/Action by Conjugation and the Class Equation.md",
+    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
+    "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "3. Quotient Groups/Quotient Groups.md",
     "1. Basics/The Matrix Group and Quaternions.md",
-    "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
     "1. Basics/The Symmetric Group.md",
     "2. Subgroups/Cyclic Groups.md",
     "3. Quotient Groups/Isomorphism Theorems.md",
-    "2. Subgroups/Centralizers, Normalizers, Stabilizers and Kernels.md",
     "2. Subgroups/Subgroups.md",
-    "4. Group Actions/Action by Conjugation and the Class Equation.md",
     "4. Group Actions/Group Actions.md",
     "Classification Theorems.md",
     "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
