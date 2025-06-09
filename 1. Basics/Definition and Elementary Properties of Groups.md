@@ -126,4 +126,4 @@ This method of using the inverse of a product to prove a commutativity property 
 
 ### An Interesting Criterion for Groups
 
-The follow
+The following
