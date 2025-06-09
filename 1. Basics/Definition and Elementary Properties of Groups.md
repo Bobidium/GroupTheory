@@ -124,3 +124,6 @@ Hence, $G$ is Abelian.
 
 This method of using the inverse of a product to prove a commutativity property is used gain in [[Lagrange's Theorem and Products of Groups#Products of Subgroups]]. 
 
+### An Interesting Criterion for Groups
+
+The follow
