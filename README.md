@@ -2,8 +2,10 @@ These are the Group Theory Notes for Philomath.
 
 ## Reference Textbooks
 * _Abstract Algebra_, Dummit and Foote
+* _Algebra_, Hungerford
 * _Algebra_, Artin
 * _Groups and Symmetry_, Armstrong
+
 
 (The notes primarily follows the structure of Dummit and Foote, with extra bits of extension, i.e. exercise problems or important techniques in Group Theory)
 
