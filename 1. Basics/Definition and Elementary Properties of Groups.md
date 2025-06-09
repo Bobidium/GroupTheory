@@ -124,6 +124,47 @@ Hence, $G$ is Abelian.
 
 This method of using the inverse of a product to prove a commutativity property is used gain in [[Lagrange's Theorem and Products of Groups#Products of Subgroups]]. 
 
-### An Interesting Criterion for Groups
+### An Interesting Criterion for Abelian Groups
 
-The following
+The following is an interesting (though not frequently used) test for whether a group is ableian or not. Its proof illustrate the important use of [[The Matrix Group and Quaternions#The Quaternions|commutativity relations]] in computations of group elements: 
+
+>[!success] Criterion for Abelian Groups
+>A group $G$ is abelian if and only if $(ab)^n = a^nb^n$ for all $a, b \in G$ and three consecutive integers $n$. 
+
+**Proof**: The forward direction is trivial. For the backward direction, assume that $(ab)^n = a^nb^n$ for $n = k, k+1, k+2$. On one hand, $(ab)^{k+1}= a^{k+1}b^{k+1}$. on the other hand: 
+$$
+(ab)^{k+1} = (ab) (ab)^k = aba^kb^k
+$$
+Thus: 
+$$
+a^{k+1}b^{k+1} = aba^kb^k \implies \boxed{a^kb  = ba^k}
+$$
+This shows that $a^k$ commutes with $b$ -- this is a weaker version of the commutativity we want to prove. Combining this commutativity relation with $(ab)^{k+2} = a^{k+2}b^{k+2}$ will then yield the desired result, as we now show. Notice that: 
+$$
+(ab)^{k+2} = a^{k+2} b^{k+2} = a^2 (a^kb)b^{k+1} = a^2ba^kb^{k+1} = a^2b^{k+2}a^k
+$$
+This is equivalent to:
+$$
+(ab)^{k+2} = a^2b^2 b^k a^k = (a^2b^2)(a^kb^k)
+$$
+On the other hand: 
+$$
+(ab)^{k+2} = (ab)^2(ab)^k = (ab)^2(a^kb^k)
+$$
+Thus: 
+$$
+(a^2b^2)(a^kb^k)  = (ab)^2(a^kb^k) \implies a^2b^2 = (ab)^2
+$$
+Then multiplying on the left by $a^{-1}$ and right by $b^{-1}$ yields the desired result: 
+$$
+a^{-1}a^2b^2 b^{-1} = a^{-1}(abab)b^{-1} \implies ab = ba 
+$$
+completing the proof that $G$ is abelian. 
+
+The main idea in the proof is to prove the intermediate, weaker version of commutativity, i.e. $a^kb  = ba^k$, which then allows us to prove the full commutativity using the additional $k+2$ condition. The use of commutativity relations also appears [[The Matrix Group and Quaternions#The Quaternions|here]]. 
+
+
+
+
+
+
