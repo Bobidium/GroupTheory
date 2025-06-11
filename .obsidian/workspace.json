@@ -11,10 +11,14 @@
             "id": "d016dfcb4bff7fcc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Classification Theorems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Classification Theorems"
             }
           },
           {
@@ -92,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "product",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "db37853334aff090",
@@ -127,12 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Classification Theorems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Classification Theorems"
             }
           }
         ]
@@ -148,6 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Classification Theorems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +180,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Classification Theorems"
             }
           }
         ]
