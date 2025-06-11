@@ -1,4 +1,4 @@
-These are the Group Theory Notes for Philomath. 
+These are my Group Theory Notes. 
 
 ## Reference Textbooks
 * _Abstract Algebra_, Dummit and Foote
