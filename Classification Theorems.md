@@ -52,5 +52,5 @@ are all distinct elements in $G$. As $G$ has order $6$, this must be **all** ele
 
 ### Clasification of Groups of Order $2p$
 
-ss
+sss
 
