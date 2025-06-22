@@ -61,7 +61,7 @@ Next, it suffices to show that $rs = sr^{-1}$. This is equivalent to showing tha
 $$
 (rs)^p = e \implies (rs)(rs) ... (rs) = e
 $$
-Notice that we can use the commutativity relation to simplify the expression to $sr^i = e$ for $i \leq p$. This is a contradiction since we would have:
+Notice that we can use the commutativity relation to simplify the expression to $sr^i = e$ for $i \leq p$ becuse $p$ is odd. This is a contradiction since we would have:
 $$
 s = r^{-i} \implies s^2 = r^{2i} = e \implies p \mid 2i
 $$
