@@ -65,7 +65,7 @@ Notice that we can use the commutativity relation to simplify the expression to 
 $$
 s = r^{-i} \implies s^2 = r^{2i} = e \implies p \mid 2i
 $$
-With $p$ odd, $p \mid i$, but $i \leq p$, contradiction to the definition of primes. Hence, $rs$ must have order $2$, which implies that $rsrs = e \implies rs = sr^{-1}$. As a result, $r$ and $s$ are generators of $G$ that satisfy the relations given in [[The Dihedral Group#Introduction]], so $G \simeq D_{2p}$. 
+With $p$ odd, $p \mid i$, but $i \leq p$, contradiction to the definition of primes. Hence, $rs$ must have order $2$, which implies that $rsrs = e \implies rs = sr^{-1}$. As a result, $r$ and $s$ are generators of $G$ that satisfy the relations given in [[The Dihedral Group#Introduction]], so $G \simeq D_{2p}$. ss
 
 
 
