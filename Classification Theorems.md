@@ -52,5 +52,21 @@ are all distinct elements in $G$. As $G$ has order $6$, this must be **all** ele
 
 ### Clasification of Groups of Order $2p$
 
-sssass
+>[!success] Groups of Irder $2p$
+>Let $p$ be an odd prime, then a group $G$ or order $2p$ is isomorphic to $\mathbb{Z}_{2p}$ or $D_{2p}$.
+
+**Proof**: If $G$ contains an element of order $2p$, then clearly $G$ is cyclic and $G \simeq \mathbb{Z}_{2p}$. Otherwise, by [[Theorem of Cauchy| Cauchy's Theorem]], $G$ contains an element $r$ of order $p$ and and an elemtn $s$ of order $2$. Notice that $\langle r \rangle$ has order $p$, so $[G : \langle r \rangle] = 2$, implying that $\langle r \rangle$ is normal in $G$. Moreover, the order of $\langle r, s \rangle > p$, which, by [[Lagrange's Theorem and Products of Groups|Lagrange's Theorem]], implies that $\langle r, s \rangle = G$. 
+
+Next, it suffices to show that $rs = sr^{-1}$. This is equivalent to showing that $(rs)^2 = e$, i.e. $rs$ has order $2$. Firstly, as $\langle r \rangle \unlhd G$, then $srs^{-1} = srs = r^k$ for some $1 \leq k \leq n$, so $rs = sr^k$ -- this is a [[The Dihedral Group#Generator and Presentation of $D_{2n}$|commutativity relation]] Suppose for the sake of contradiction that $rs$ has order $p$, then: 
+$$
+(rs)^p = e \implies (rs)(rs) ... (rs) = e
+$$
+Notice that we can use the commutativity relation to simplify the expression to $sr^i = e$ for $i \leq p$. This is a contradiction since we would have:
+$$
+s = r^{-i} \implies s^2 = r^{2i} = e \implies p \mid 2i
+$$
+With $p$ odd, $p \mid i$, but $i \leq p$, contradiction to the definition of primes. Hence, $rs$ must have order $2$, which implies that $rsrs = e \implies rs = sr^{-1}$. As a result, $r$ and $s$ are generators of $G$ that satisfy the relations given in [[The Dihedral Group#Introduction]], so $G \simeq D_{2p}$. 
+
+
+
 
