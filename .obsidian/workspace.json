@@ -59,8 +59,7 @@
               "title": "The Matrix Group and Quaternions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Classification Theorems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Classification Theorems"
             }
           }
         ]
@@ -148,6 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Classification Theorems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +176,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Classification Theorems"
             }
           }
         ]
@@ -265,7 +266,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d0f41ef63f7eacb",
+  "active": "d016dfcb4bff7fcc",
   "lastOpenFiles": [
     "3. Quotient Groups/Quotient Groups.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
