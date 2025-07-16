@@ -59,7 +59,8 @@
               "title": "Action by Left Multiplication -- Cayley's Theorem"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,12 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "6. Category Theory Basics/Basics of Categories.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Basics of Categories"
             }
           }
         ]
@@ -147,6 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "6. Category Theory Basics/Basics of Categories.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +177,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Basics of Categories"
             }
           }
         ]
@@ -264,12 +267,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d0f41ef63f7eacb",
+  "active": "0bdb193b965209c9",
   "lastOpenFiles": [
+    "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
     "5. Finitely Generated Abelian Groups/Free Groups and Presentation of Groups.md",
     "6. Category Theory Basics/Basics of Categories.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
-    "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
     "1. Basics/Definition and Elementary Properties of Groups.md",
     "1. Basics/Homomorphisms and Isomorphisms.md",
     "Classification Theorems.md",
