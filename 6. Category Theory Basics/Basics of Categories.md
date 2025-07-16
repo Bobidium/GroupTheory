@@ -41,6 +41,19 @@ A few remarks are worth mentions
 
 ### Examples of Categories
 
+We shall include below multiple examples of categories, from concrete, to more abstract ones. 
+
+>[!example] Category of Sets
+>In the category $\text{Set}$, the objects are sets, the morphisms are functions between sets, and the composition is the usual composition between functions. Clearly, the composition is associative, and the identity $I_A$ is the identity map on set $A$. 
+
+>[!example] Category of Groups
+>In the category $\text{Grp}$, the objects are groups, the morphisms are group homomorphisms, and the composition is the usual function compositions. This composition is well-defined as one can verify that the composition of two homomorphisms is still a homomorphism. Clearly, as homomorphisms are function, the composition is associative, and the identity morpphism is simply the identity homomorphism. 
+
+>[!example] Category of Abelian Groups
+>Notice that if we restrict to the class of abelian groups only in the example above, the definition morphisms and compositions produces another category, denoted as $\text{Ab}$. This is a category contained within the category $\text{Grp}$, and so it is a *subcategory* of $\text{Grp}$. 
+
+
+
 
 ### Identity and Inverses
 
