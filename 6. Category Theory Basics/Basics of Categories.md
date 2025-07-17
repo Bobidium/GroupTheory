@@ -81,10 +81,34 @@ The following two interesting examples are from *Algebra: Chapter 0* by Aluffi, 
 >$$
 >Thus, this does consitute a category, although in a wierd fashion. 
 
+Notice that in this category, the objects are no longer sets, but the elements of a particular set. We might attempt to define in a similar fashion a category on each group: 
 
+>[!example] Category on a single group (?)
+>Let $G$ be a group. We attempt to construct a category on $G$ by taking: 
+>1. The objects to be all elements of $G$
+>2. The morphisms to be also the **elements** of $G$. In particular, $\text{Hom}(a, b) = \{ab\}$, the product of $a$ and $b$ in $G$ if. 
+>We can then define the composition as follows: For $f: a \to b$ and $g : b \to c$, define: 
+>$$
+>g \circ f := ac
+>$$
+>
+>This composition is associative as: for $f : a \to b, g: b \to c, h : c \to d$
+>$$
+>(h \circ g) \circ f = (bd) \circ (ab) = ad
+>$$
+>and
+>$$
+>h \circ (g \circ f) = (cd) \circ (ac) = ad
+>$$
+>In this fashion, the identity element $I_a$ is simply $a^2$ as for any $f: a \to b, g : c \to a$:
+>$$
+>f \circ I_a = ab \circ a^2 = ab, \; \; \; \; \; I_a \circ g = a^2 \circ ca = ca
+>$$
+>Is this a valid category? If not, why? Check out the end of this note for an answer. 
 
+The next example of category from Algebra: Chapter 0 is rather abstract in the sense that its definition is dependent on an "ambient category": 
 
-
+>[!example] 
 
 
 
