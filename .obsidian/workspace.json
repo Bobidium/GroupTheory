@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Category Theory Basics/Basics of Categories.md",
+                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basics of Categories"
+              "title": "Outline of Universal Properties, Products, Coproducts, and Free Objects"
             }
           }
         ]
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6. Category Theory Basics/Basics of Categories.md",
+                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,7 +177,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Basics of Categories"
+              "title": "Graph of Universal Properties, Products, Coproducts, and Free Objects"
             }
           }
         ]
@@ -267,7 +267,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b82dee478e35733",
+  "active": "58cbcd9f52a82c89",
   "lastOpenFiles": [
     "6. Category Theory Basics/Basics of Categories.md",
     "3. Quotient Groups/Quotient Groups.md",
