@@ -5,6 +5,7 @@ These are my Group Theory Notes.
 * _Algebra_, Hungerford
 * _Algebra_, Artin
 * _Groups and Symmetry_, Armstrong
+* _Algebra: Chapter 0_, Aluffi
 
 
 (The notes primarily follows the structure of Dummit and Foote, with extra bits of extension, i.e. exercise problems or important techniques in Group Theory)
