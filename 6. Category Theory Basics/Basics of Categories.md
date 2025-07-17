@@ -17,7 +17,7 @@ These two critical aspects, upon further abstraction, become the two defining as
 >$$
 >\text{Hom}(A, B) \times  \text{Hom}(B,C) \to \text{Hom}(A, C)
 >$$
->In particular, for morphisms $f : A \to B$ and $g B \to C$, the function maps $(f, g)$ to $g \circ f$. The image $g \circ f$ is called the **composition** of $f$ and $g$. The composition follows the following two rules: 
+>In particular, for morphisms $f : A \to B$ and $g: B \to C$, the function maps $(f, g)$ to $g \circ f$. The image $g \circ f$ is called the **composition** of $f$ and $g$. The composition follows the following two rules: 
 >a. (Associativity) For morphisms $f : A \to B, g: B \to C, h: C \to D$, we have: 
 >$$
 >(h \circ g) \circ f = h \circ (g \circ f)
@@ -27,7 +27,7 @@ These two critical aspects, upon further abstraction, become the two defining as
 >I_B \circ f = f,\; \; \; \; \;  g \circ I_B = g
 >$$
 
-A few remarks are worth mentions
+A few remarks are worth mentioning:
 
 >[!warning] Remark
 >1. The objects form a *class*, which is wider than the notion of sets precisely because we need the class of all sets to be a category (see below). There is no "set" of all sets, as this would cause Russel's paradox. The same problem does not occur with the maps between sets: the collection of all possible maps from a set A to $B$ DOES form a set, for reasons beyond the scope of group theory. Thus, we may restrict $\text{Hom}(A, B)$ to a set. 
@@ -51,6 +51,39 @@ We shall include below multiple examples of categories, from concrete, to more a
 
 >[!example] Category of Abelian Groups
 >Notice that if we restrict to the class of abelian groups only in the example above, the definition morphisms and compositions produces another category, denoted as $\text{Ab}$. This is a category contained within the category $\text{Grp}$, and so it is a *subcategory* of $\text{Grp}$. 
+
+The following two interesting examples are from *Algebra: Chapter 0* by Aluffi, and they illustrate categories whoses objects are not necessarily sets, and whose morphisms are not necessarily maps. 
+
+>[!example] Order Relation without Symmetry
+>Let $\sim$ be a relation on a set $S$ that is reflexive ($a \sim a$) and transitive ($a \sim b, b \sim c \implies a \sim c$). Then we can construct a category on $S$ by taking:
+>1. The objects to be the **elements** of $S$
+>2. The morphism to be as follows: For any $a, b \in S$, $\text{Hom}(a, b)$ is defined as
+>$$
+>\text{Hom}(a, b) = \begin{cases}
+>\{(a, b)\} & \text{if } a \sim b \\
+>\emptyset & \text{otherwise}
+>\end{cases}
+>$$
+>
+>We have to be more careful when we are trying to define composition. Let $f \in \text{Hom}(a, b), g \in \text{Hom}(b, c)$. Notice that this implies that $\text{Hom}(a, b)\neq \emptyset$ and $\text{Hom}(b, c) \neq \emptyset$, so by the definition above, $a \sim b, b \sim c$. Using transitivity of $\sim$, we have that $a \sim c$, so $\text{Hom}(a, c) = \{(a, c)\}$. Thus, we define the composition $g \circ f := (a, c)$. 
+>
+>We then need to verify that this composition is associative. This is relatively straight forward as: 
+>$$
+>[(c, d) \circ (b, c)] \circ (a, b) = (b, d) \circ (a, b) = (a, d)
+>$$
+>and
+>$$
+>(c, d) \circ [(b, c) \circ (a, b)] = (c, d) \circ (a, c) = (a, d)
+>$$
+>As $\sim$ is reflexive, $a \sim a$ for all $a \in S$, so $\text{Hom}(a, a) = \{(a, a)\}$, and it is easy to verify that $I_A := (a, a)$ satisfies the definition of identity since: 
+>$$
+>(a, b) \circ (a, a) = (a, b), \; \; \; \; \; (a, a) \circ (c, a) = (c, a)
+>$$
+>Thus, this does consitute a category, although in a wierd fashion. 
+
+
+
+
 
 
 
