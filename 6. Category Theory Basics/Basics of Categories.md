@@ -124,11 +124,42 @@ The next example of category from Algebra: Chapter 0 is rather abstract in the s
 >
 >![[db9be4909d794858a63faddaf7452b5.jpg| center | 400]] 
 >
+>The identity and the verification of associativity will be left to the reader as an exercise...
 
-
-
+This category will play an important role later when we consider the [[Universal Properties, Products, Coproducts, and Free Objects|universal property of products]]
+and coproducts. 
 
 ### Identity and Inverses
 
+In this section, we first show that the identity on any object $A$ of a category $\mathcal{C}$ must be unique. 
+
+>[!success] Uniqueness of Identity
+>Let $\mathcal{C}$ be a category and for any object $A$ of $\mathcal{C}$, the identity morphism $I_A$ is unique. 
+
+**Proof**: The proof will be very similar to the [[Definition and Elementary Properties of Groups#Elementary Properties|proof for the uniqueness of the identity in a group]]. Suppose that $I_A'$ is another identity morphism on $A$, then for any morphism $f: A \to B$ and $g: C \to A$, we have $f \circ I_A' = f. I_A' \circ g = g$. By taking $f = I_A$ we have: 
+$$
+I_A = I_AI_A' = I_A'
+$$
+which completes the proof of uniqueness. 
+
+In the category $\text{Set}$, some morphisms, i.e. functions, are bijective and thus have inverses. In the categories $\text{Grp}$ and $\text{Ab}$, the isomorphisms are the morphisms with an inverse. We can thus extend this notion of "invertible morphisms" onto an arbitrary category: 
+
+>[!d] Equivalence
+>In a category $\mathcal{C}$, a morphism $f: A \to B$ is called an *equivalence* if there exists a morphism $g : B \to A$ such that:
+>$$
+>g \circ f = I_A, \; \; \; \; \; f \circ g = I_B
+>$$
+>In this case, $g$ is called the *inverse* of $f$. If there exists an equivalence between $A$ and $B$, then $A$ and $B$ are said to be *equivalent*. 
+
+As we migh expect, given any equivalence in a category, the inverse is unique: 
+
+>[!success] Uniqueness of Inverse
+>Let $f: A \to B$ be an equivalence in a category $\mathcal{C}$. If $g, g'$ are both inverses of $f$, then $g = g'. 
+
+**Proof**: Again, notice the great similarity between this proof and the  [[Definition and Elementary Properties of Groups#Elementary Properties|proof for the uniqueness of the inverse in a group]]. Notice that: 
+$$
+g = g \circ I_B = g \circ (f \circ g') = (g \circ f) \circ g' = I_A \circ g' = g'
+$$
+which proves the uniqueness of the identity. 
 
 
