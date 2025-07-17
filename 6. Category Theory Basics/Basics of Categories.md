@@ -83,10 +83,11 @@ The following two interesting examples are from *Algebra: Chapter 0* by Aluffi, 
 
 Notice that in this category, the objects are no longer sets, but the elements of a particular set. We might attempt to define in a similar fashion a category on each group: 
 
->[!example] Category on a single group (?)
+>[!example] Category on a Single Group (?)
 >Let $G$ be a group. We attempt to construct a category on $G$ by taking: 
 >1. The objects to be all elements of $G$
 >2. The morphisms to be also the **elements** of $G$. In particular, $\text{Hom}(a, b) = \{ab\}$, the product of $a$ and $b$ in $G$ if. 
+>
 >We can then define the composition as follows: For $f: a \to b$ and $g : b \to c$, define: 
 >$$
 >g \circ f := ac
@@ -108,7 +109,22 @@ Notice that in this category, the objects are no longer sets, but the elements o
 
 The next example of category from Algebra: Chapter 0 is rather abstract in the sense that its definition is dependent on an "ambient category": 
 
->[!example] 
+>[!example] $\mathcal{C}_{A, B}$
+>Let $\mathcal{C}$ be a category and $A, B$ be fixed objects of $C$. We now construct a category $\mathcal{C}_{A, B}$ by taking the objects to be commutative diagrams of the form: 
+>   
+>![[Pasted image 20250717140404.png| center | 200]]
+>where $Z$ is an object of $\mathcal{C}$ and $f, g$ are morphisms in $\mathcal{C}$ and the morphisms between diagrams: 
+>
+>![[Pasted image 20250717140643.png| center | 400]]
+>to be all commutative diagrams: 
+>
+>![[Pasted image 20250717140758.png| center | 300]]
+>
+>The Composition will be defined as:
+>
+>![[db9be4909d794858a63faddaf7452b5.jpg| center | 400]] 
+>
+
 
 
 
