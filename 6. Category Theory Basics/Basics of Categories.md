@@ -162,4 +162,8 @@ g = g \circ I_B = g \circ (f \circ g') = (g \circ f) \circ g' = I_A \circ g' = g
 $$
 which proves the uniqueness of the identity. 
 
+--------------------------------------------------------------------------
 
+**Answer**: Why isn't the attempted definition of a category on a single group fail? As we have verified, the construction does satisfy most of the defining properties of a category, except one. Recall that when $a \neq c, b \neq d$, we need $\text{Hom}(a,b)$ and $\text{Hom}(c, d)$ to be disjoint. This is not the case in our construction since the morphism $e$ is in $\text{Hom}(a, a^{-1})$ for all $a \in G$. 
+
+Following up from our failed attempt, we may ask whether there IS a way to realize a single group $G$ as a category. The answer is yes by considering the category whose object(s) is the single element $G$, the morphisms in $\text{Hom}(G, G)$ are precisely all elements of $G$, and the composition of morphisms $a$ and $b$ is given by the product $ab$. Consequently, $e$ is the identity morphism and associativity follows directly from associativity in $G$. In this sense, we may say that a group can be considered as a **category with one object**.  
