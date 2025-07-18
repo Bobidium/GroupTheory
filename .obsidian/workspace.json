@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "6. Category Theory Basics/Basics of Categories.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
+                "file": "6. Category Theory Basics/Basics of Categories.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Universal Properties, Products, Coproducts, and Free Objects"
+              "title": "Outline of Basics of Categories"
             }
           }
         ]
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
+                "file": "6. Category Theory Basics/Basics of Categories.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -172,12 +172,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.352637248494492,
+                  "scale": 0.4522882793657383,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Universal Properties, Products, Coproducts, and Free Objects"
+              "title": "Graph of Basics of Categories"
             }
           }
         ]
@@ -267,9 +267,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58cbcd9f52a82c89",
+  "active": "1b82dee478e35733",
   "lastOpenFiles": [
+    "1. Basics/Definition and Elementary Properties of Groups.md",
     "6. Category Theory Basics/Basics of Categories.md",
+    "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
     "3. Quotient Groups/Quotient Groups.md",
     "4. Group Actions/Group Actions.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
@@ -280,9 +282,7 @@
     "2. Subgroups/Lattices of Subgroups.canvas",
     "4. Group Actions/Orbits and the Orbit-Stabilizer Theorem.md",
     "1. Basics/The Matrix Group and Quaternions.md",
-    "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
     "5. Finitely Generated Abelian Groups/Free Groups and Presentation of Groups.md",
-    "1. Basics/Definition and Elementary Properties of Groups.md",
     "1. Basics/Homomorphisms and Isomorphisms.md",
     "Classification Theorems.md",
     "6. Category Theory Basics",
