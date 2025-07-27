@@ -118,7 +118,7 @@ The next example of category from Algebra: Chapter 0 is rather abstract in the s
 >![[Pasted image 20250717140643.png| center | 400]]
 >to be all commutative diagrams: 
 >
->![[Pasted image 20250717140758.png| center | 300]]
+>![[Pasted image 20250717140758.png| center | 300 ]]
 >
 >The Composition will be defined as:
 >
