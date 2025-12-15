@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,12 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Universal Properties, Products, Coproducts, and Free Objects"
             }
           }
         ]
@@ -160,6 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +189,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Universal Properties, Products, Coproducts, and Free Objects"
             }
           }
         ]
@@ -278,10 +280,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37a8ee183b9e1f7e",
+  "active": "58cbcd9f52a82c89",
   "lastOpenFiles": [
-    "3. Quotient Groups/Composition Series and the Hölder Program.md",
     "6. Category Theory Basics/Basics of Categories.md",
+    "3. Quotient Groups/Composition Series and the Hölder Program.md",
     "4. Group Actions/Group Actions.md",
     "5. Finitely Generated Abelian Groups/Free Groups and Presentation of Groups.md",
     "6. Category Theory Basics/Universal Properties, Products, Coproducts, and Free Objects.md",
