@@ -79,7 +79,7 @@ As the image of $\pi_H$ is a subgroup of some symmetric group, we are done.
 
 Another rather remarkable consequence of the above theorem is a direct generalization to the normality of groups of index $2$ as described in [[Lagrange's Theorem and Products of Groups#Normal Subgroups Applying Lagrange]]: 
 
->[!important] Corollary: Normality of Groups of Mininal Prime Index
+>[!important] Corollary: Normality of Groups of Minimal Prime Index
 >If $G$ is a finite group of order $n$, and $p$ is the smallest prime that divides $n$, then any subgroup of index $p$ in $G$ is normal. 
 
 **Proof**: Let $H \leq G$ be such that $[G:H] = p$, and let $G$ act on the set of cosets of $H$ via left multiplication. Then, it suffices to show that the Kernel of this action, which by the preivous theorem is $K = \bigcap_{x \in G} xHx^{-1}$, is equal to $H$. Suppose $[H : K] = k$, then it suffices to prove that $k = 1$. By [[Lagrange's Theorem and Products of Groups|Lagrange's Theorem]], we have $[G : K] = [G : H] [H : K] = pk$. By the First Isomorphism Theorem, we also have that $G / K$ is isomorphic to a subgroup of $S_p$, so $p! \mid [G : K] = pk$ and conseuquently: 
