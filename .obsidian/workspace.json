@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "9576867ad36c0ba9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
+          },
+          {
             "id": "37a8ee183b9e1f7e",
             "type": "leaf",
             "state": {
@@ -62,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,13 +141,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Action by Left Multiplication -- Cayley's Theorem 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -151,7 +162,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,7 +189,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Action by Left Multiplication -- Cayley's Theorem 的关系图"
+              "title": "关系图谱"
             }
           }
         ]
@@ -270,7 +280,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d667f1b794b35a02",
+  "active": "9576867ad36c0ba9",
   "lastOpenFiles": [
     "6. Category Theory Basics/Basics of Categories.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
