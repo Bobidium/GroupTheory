@@ -62,6 +62,18 @@
             }
           },
           {
+            "id": "c77050a12934bb5f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.7"
+            }
+          },
+          {
             "id": "37a8ee183b9e1f7e",
             "type": "leaf",
             "state": {
@@ -74,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +107,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -141,6 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -162,6 +177,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -189,7 +205,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "局部关系图谱"
             }
           }
         ]
@@ -280,7 +296,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9576867ad36c0ba9",
+  "active": "d667f1b794b35a02",
   "lastOpenFiles": [
     "6. Category Theory Basics/Basics of Categories.md",
     "4. Group Actions/Action by Left Multiplication -- Cayley's Theorem.md",
